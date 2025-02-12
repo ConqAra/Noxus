@@ -1,0 +1,10 @@
+{
+  "parry": {
+    "exhaustion_cost": 2.0,
+    "knockback_strength": 0.5
+  },
+  "enchantability": {
+    "minecraft:shield": 9,
+    "guarding:netherite_shield": 15
+  }
+}

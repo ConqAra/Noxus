@@ -1,0 +1,112 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Enable entities light source.
+	entities = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+			[light_sources.settings.entities.minecraft]
+				axolotl = true
+				bee = true
+				arrow = true
+				cow = true
+				pig = true
+				skeleton = true
+				llama = true
+				bat = true
+				frog = true
+				husk = true
+				armadillo = true
+				camel = true
+				rabbit = true
+				armor_stand = true
+				drowned = true
+				experience_orb = true
+				dolphin = true
+				item = true
+				stray = true
+				turtle = true
+				salmon = true
+				wandering_trader = true
+				wither_skeleton = true
+				item_frame = true
+				horse = true
+				vindicator = true
+				phantom = true
+				minecart = true
+				evoker = true
+				llama_spit = true
+				glow_squid = true
+				glow_item_frame = false
+				squid = true
+				creeper = true
+				lightning_bolt = true
+				enderman = true
+				chicken = true
+				trader_llama = true
+				donkey = true
+				chest_minecart = true
+				fox = true
+				tropical_fish = true
+				slime = true
+				pillager = true
+				iron_golem = true
+				area_effect_cloud = true
+				cat = true
+				zombie = true
+				sheep = true
+				player = true
+				pufferfish = true
+				potion = true
+				villager = true
+				wolf = true
+				skeleton_horse = true
+				fishing_bobber = true
+				zombie_villager = true
+				tnt_minecart = true
+				boat = true
+				polar_bear = true
+				falling_block = true
+				painting = true
+				cave_spider = true
+				witch = true
+				cod = true
+				spider = true
+
+			[light_sources.settings.entities.hwg]
+				shell = true
+				bullets = true
+
+			[light_sources.settings.entities.eternal_starlight]
+				chain_of_souls = true
+				shattered_blade = true
+				aethersent_meteor = true
+				the_gatekeeper = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				ocean_creeper = true
+				desert_creeper = true
+				dark_oak_creeper = true
+				dripstone_creeper = true
+				cave_creeper = true
+				savannah_creeper = true
+				hills_creeper = true
+
+			[light_sources.settings.entities.knightquest]
+				ratman = true
+				ghosty = true
+				eldbomb = true
+				lizzy = true
+
+			[light_sources.settings.entities.artifacts]
+				mimic = true

@@ -1,0 +1,43 @@
+applyToPlayers = true
+playersAlwaysNamed = true
+seeYourName = false
+applyToMobs = true
+seeInjuredNames = false
+injuredAlwaysNamed = false
+tamesAlwaysNamed = true
+horsesAlwaysNamed = false
+villagersAlwaysNamed = true
+golemsAlwaysNamed = true
+applyToScores = false
+stripFormat = false
+seeFrameNames = true
+namesWithoutHUD = false
+visibleRange = 64
+
+[nameMax]
+R = 255
+G = 255
+B = 255
+A = 255
+
+[nameMin]
+R = 255
+G = 0
+B = 0
+A = 255
+
+[plateMax]
+R = 0
+G = 0
+B = 0
+A = 63
+
+[plateMin]
+R = 192
+G = 0
+B = 0
+A = 63
+
+[secret]
+doValentines = true
+doAprilFools = true

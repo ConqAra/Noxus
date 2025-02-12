@@ -1,0 +1,9 @@
+campfires_burn = true
+enable_magma_cube_damage = false
+enable_blaze_damage = true
+stonecutters_cut = true
+soul_campfires_burn = true
+enable_magma_block_damage = true
+torches_burn = false
+enabled = true
+soul_torches_burn = false

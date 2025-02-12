@@ -1,0 +1,32 @@
+# Disable the Info Message when joining a World.
+# Has to be disabled separately on Server and Local
+disableInfoMessage = true
+
+# Change how big the backpack inventory is.
+# Rows: 1 up to 25
+# Columns: 9 up to 50
+# max slots: 1250
+# Local Settings get overwritten with the server settings.
+["Leather Backpack"]
+	rows = 1
+	columns = 9
+
+["Copper Backpack"]
+	rows = 2
+	columns = 9
+
+["Gold Backpack"]
+	rows = 3
+	columns = 10
+
+["Iron Backpack"]
+	rows = 4
+	columns = 11
+
+["Diamond Backpack"]
+	rows = 5
+	columns = 12
+
+["Netherite Backpack"]
+	rows = 6
+	columns = 13

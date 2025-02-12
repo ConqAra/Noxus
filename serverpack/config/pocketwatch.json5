@@ -1,0 +1,11 @@
+{
+	"showDetails": false,
+	"slotLimit": 3,
+	"xOffset": 0,
+	"yOffset": 0,
+	"whitelist": [
+		"minecraft:clock",
+		"minecraft:compass",
+		"minecraft:recovery_compass"
+	]
+}

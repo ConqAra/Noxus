@@ -1,0 +1,10 @@
+{
+  "enable_temporal_coherence": true,
+  "max_geometry_memory": 2048,
+  "automatic_memory": true,
+  "async_bfs": true,
+  "region_keep_distance": 256,
+  "render_fog": true,
+  "translucency_sorting_level": "QUADS",
+  "statistics_level": "NONE"
+}

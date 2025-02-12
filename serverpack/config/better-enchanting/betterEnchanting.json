@@ -1,0 +1,16 @@
+{
+  "disabledEnchants": [
+    "namespace:enchantment"
+  ],
+  "allowBookInAnvil": false,
+  "shardFillingLapisCost": 3,
+  "shardFillingExperienceCost": 5,
+  "overideItemCost": false,
+  "overidenItemCost": 3,
+  "consecutiveEnchantIncrease": 0.05,
+  "baseEnchantmentCost": 8,
+  "tresaureMultiplier": 2.0,
+  "catalystGivebackChance": 10,
+  "catalystCombinationMultiplier": 1.8,
+  "magicShardGiveBackChance": 65
+}

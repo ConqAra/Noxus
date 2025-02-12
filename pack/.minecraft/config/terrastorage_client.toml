@@ -1,0 +1,56 @@
+#Whether to display the options button in the storage screens
+#Default: true
+display_options_button = true
+#==========
+#Whether to protect hotbar items from the storage options
+#Default: true
+hotbar_protection = true
+#==========
+#Whether the storage option buttons have description tooltips.
+#Default: true
+buttons_tooltip = true
+#==========
+#The style of the storage option buttons
+#Default: DEFAULT
+buttons_style = "DEFAULT"
+#==========
+#The placement of the storage option buttons
+#Default: RIGHT
+buttons_placement = "RIGHT"
+#==========
+#The horizontal offset of the storage option buttons
+#Range: -100 to 100, inclusive
+#Default: 0
+buttons_x_offset = 0
+#==========
+#The vertical offset aof the storage option buttons
+#Range: -100 to 100, inclusive
+#Default: 0
+buttons_y_offset = 0
+#==========
+#The width of the storage option buttons
+#Range: 20 to 150, inclusive
+#Default: 70
+buttons_width = 70
+#==========
+#The height of the storage option buttons
+#Range: 5 to 50, inclusive
+#Default: 15
+buttons_height = 15
+#==========
+#The vertical spacing between the storage option buttons
+#Range: 0 to 20, inclusive
+#Default: 2
+buttons_spacing = 2
+#==========
+#The property by which items will be sorted
+#Default: ITEM_GROUP
+sort_type = "ITEM_GROUP"
+#==========
+#The quick stacking mode used when quick stacking into a single storage
+#Default: SMART_DEPOSIT
+storage_quick_stack_mode = "SMART_DEPOSIT"
+#==========
+#The quick stacking mode used when quick stacking to nearby storages
+#Default: SMART_DEPOSIT
+nearby_quick_stack_mode = "SMART_DEPOSIT"

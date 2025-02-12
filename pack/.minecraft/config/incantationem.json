@@ -1,0 +1,45 @@
+{
+	"enchantments": {
+		"decay": {
+			"is_luck_based": true,
+			"success_rate": 10,
+			"show_apply_message": true
+		},
+		"deflection": {
+			"is_luck_based": true,
+			"success_rate": 4,
+			"show_apply_message": true
+		},
+		"forging_touch": {
+			"is_luck_based": true,
+			"success_rate": 15,
+			"show_apply_message": true
+		},
+		"last_stand": {
+			"is_luck_based": true,
+			"success_rate": 30,
+			"show_apply_message": true
+		},
+		"magnetic": {},
+		"reaping_rod": {
+			"show_apply_message": true
+		},
+		"retreat": {
+			"is_luck_based": true,
+			"success_rate": 20,
+			"show_apply_message": true
+		},
+		"venomous": {
+			"is_luck_based": true,
+			"success_rate": 15,
+			"show_apply_message": true
+		}
+	},
+	"curses": {
+		"thunder": {
+			"is_luck_based": true,
+			"success_rate": 15,
+			"show_apply_message": true
+		}
+	}
+}

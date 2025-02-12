@@ -1,0 +1,5 @@
+{
+	// The amount of half hearts the mushroom stew/soup should heal. Minecraft PvP's default was 8.
+	// min: 0, max: 20
+	"soupHalfHeartHealAmount": 8
+}

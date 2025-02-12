@@ -1,0 +1,135 @@
+{
+  "mobconfigs": {
+    "mercconfigs": {
+      "merc_spawn_weight": 5,
+      "merc_min_group": 1,
+      "merc_max_group": 2,
+      "merc_health": 20.0,
+      "merc_exp": 4
+    },
+    "spyconfigs": {
+      "spy_spawn_weight": 5,
+      "spy_min_group": 1,
+      "spy_max_group": 2,
+      "spy_health": 20.0,
+      "spy_exp": 4
+    },
+    "lesserconfigs": {
+      "lesser_spawn_weight": 2,
+      "lesser_min_group": 1,
+      "lesser_max_group": 2,
+      "lesser_health": 48.0,
+      "lesser_exp": 8
+    },
+    "greatconfigs": {
+      "greater_spawn_weight": 1,
+      "greater_min_group": 1,
+      "greater_max_group": 1,
+      "greater_health": 100.0,
+      "greater_exp": 16
+    }
+  },
+  "gunconfigs": {
+    "rocket_breaks": true,
+    "balrog_breaks": false,
+    "grenades_breaks": false,
+    "grenades_throw_cooldown": 25,
+    "bullets_breakdripstone": false,
+    "bullets_disable_iframes_on_players": false,
+    "flammerconfigs": {
+      "flammer_cap": 250,
+      "flammer_cooldown": 5,
+      "flammerReloadCooldown": 15
+    },
+    "pistolconfigs": {
+      "pistol_damage": 5.0,
+      "pistol_cap": 5,
+      "pistol_cooldown": 5,
+      "pistolReloadCooldown": 10
+    },
+    "gpistolconfigs": {
+      "golden_pistol_damage": 6.0,
+      "golden_pistol_cap": 5,
+      "golden_pistol_cooldown": 5,
+      "goldenPistolReloadCooldown": 30
+    },
+    "silencedpistolconfigs": {
+      "silenced_pistol_damage": 4.0,
+      "silenced_pistol_cap": 6,
+      "silenced_pistol_cooldown": 5,
+      "silencedPistolReloadCooldown": 10
+    },
+    "lugerconfigs": {
+      "luger_damage": 5.5,
+      "luger_cap": 6,
+      "luger_cooldown": 5,
+      "lugerReloadCooldown": 10
+    },
+    "ak47configs": {
+      "ak47_damage": 6.0,
+      "ak47_cap": 20,
+      "ak47_cooldown": 5,
+      "ak47ReloadCooldown": 15
+    },
+    "sniperconfigs": {
+      "sniper_damage": 25.0,
+      "sniper_scoped_damage": 30.0,
+      "sniper_cap": 2,
+      "sniper_cooldown": 35,
+      "sniperReloadCooldown": 20
+    },
+    "minigunconfigs": {
+      "minigun_damage": 4.0,
+      "minigun_cap": 100,
+      "minigun_cooldown": 0,
+      "minigunReloadCooldown": 20
+    },
+    "smgconfigs": {
+      "smg_damage": 3.5,
+      "smg_cap": 50,
+      "smg_cooldown": 3,
+      "smgReloadCooldown": 15
+    },
+    "hellhorseconfigs": {
+      "hellhorse_damage": 5.0,
+      "hellhorse_cap": 6,
+      "hellhorse_cooldown": 5,
+      "hellhorseReloadCooldown": 16
+    },
+    "tommyconfigs": {
+      "tommy_damage": 3.0,
+      "tommy_cap": 50,
+      "tommy_cooldown": 2,
+      "tommyReloadCooldown": 15
+    },
+    "shotgunconfigs": {
+      "shotgun_damage": 5.0,
+      "shotgun_cap": 2,
+      "shotgun_cooldown": 18,
+      "shotgunReloadCooldown": 16
+    },
+    "meanieconfigs": {
+      "meanie_damage": 6.0,
+      "meanie_cap": 6,
+      "meanie_cooldown": 5,
+      "meanieReloadCooldown": 10
+    },
+    "balrogconfigs": {
+      "balrog_damage": 8.0,
+      "balrog_cap": 4,
+      "balrog_cooldown": 25,
+      "balrogReloadCooldown": 15
+    },
+    "brimstoneconfigs": {
+      "brimstone_damage": 3.0,
+      "brimstone_cap": 185,
+      "brimstone_cooldown": 5,
+      "brimstoneReloadCooldown": 15
+    },
+    "rocketlauncherconfigs": {
+      "rocketlauncherCap": 1,
+      "rocketlauncherCooldown": 20,
+      "rocketlauncherReloadCooldown": 20
+    }
+  }
+}

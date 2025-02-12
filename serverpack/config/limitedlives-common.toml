@@ -1,0 +1,35 @@
+# These configs are general configs that don't fit any other category.
+[general]
+
+	# Maximum lives a player can have before being "banned".
+	# Range: > 1
+	maxLives = 10
+
+	# Ban type once the player dies too many times.
+	# Accepts: SPECTATOR, BAN
+	# Allowed Values: SPECTATOR, BAN
+	banType = "SPECTATOR"
+
+	# Length of time (in seconds) the player is banned. Set to 0 to permaban.
+	# Range: > 0
+	banDuration = 0
+
+	# Length of time (in seconds) since last death for the player to regain a life. Set to 0 to disable.
+	# Range: > 0
+	timeToNewLife = 0
+
+	# Length of time (in minutes) between messages announcing time remaining of ban. Set to 0 to disable.
+	# Range: > 0
+	timeRemainingMessageFrequency = 5
+
+	# How much health to change per death.
+	# Range: -20.0 ~ 20.0
+	healthAdjust = -2.0
+
+	# What's the maximum health reduction allowed before it caps out? Set to 0 to disable cap.
+	# Range: -500.0 ~ 0.0
+	maxHealthReduction = 0.0
+
+	# Should we announce the player their remaining lives on respawn?
+	announceOnRespawn = true
+

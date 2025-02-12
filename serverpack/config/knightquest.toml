@@ -1,0 +1,142 @@
+["Eld Knight Configuration"]
+	"Should do the poison passive attack" = true
+	#Range: 0 ~ 6
+	"Number of Eld Bombs generated at half hp" = 3
+	#Range: 0.0 ~ 20.0
+	"Quantity of healing each 4 seconds" = 3.0
+
+["Ghosty Configuration"]
+	#Range: 0.0 ~ 25.0
+	"Ghosty invulnerability radius" = 7.0
+
+["Gremlin Configuration"]
+	"Can take gold from a player" = true
+	#Range: 1.0 ~ 10.0
+	"Second phase movement speed multipler" = 1.1
+	#Range: 1.0 ~ 10.0
+	"Second phase attack speed multipler" = 1.15
+	#Range: 1.0 ~ 10.0
+	"Second phase attack damage multipler" = 1.2
+
+["Swampman Configuration"]
+	#Range: 0.0 ~ 20.0
+	"Amount of healing per second on second phase" = 0.0
+	"Can change phase" = true
+	"Should axe throwables apply poison effect" = false
+
+["Netherman Configuration"]
+	"Can the Netherman be summoned?" = true
+	"Should spawn a lightning bolt when summoned?" = true
+	"Should generate particles when spawning?" = true
+	#Probability of teleporting when hit
+	#Range: 0.0 ~ 1.0
+	"Teleport Probability" = 0.5
+	#Should it restore blocks converted to lava back to their original state after dying?
+	"Restore Blocks Post Death" = true
+	#Amount of experience dropped upon death
+	#Range: 0 ~ 3000
+	"Experience Drop Amount" = 500
+	#Should lightning strike in its third phase?
+	"Lightning Strike in Phase Three" = true
+	#How often should a lightning bolt fall in the third phase (20 ticks = 1 second)?
+	#Range: 10 ~ 200
+	"Lightning Tick Interval" = 40
+	#Range: 1.0 ~ 3.0
+	"Speed of the snow particles in the winter storm" = 1.5
+	#Range: 10 ~ 200
+	"Number of particles generated in the winter storm" = 60
+	#Defines the radius for Netherman's Winter Storm Attack
+	#Range: 1.0 ~ 30.0
+	"Winter Storm Attack Radius" = 26.0
+	#Defines the speed at which players freeze during the Winter Attack
+	#Range: 0 ~ 20
+	"Frozen Ticks" = 4
+
+["Drop Chance Configuration"]
+	#Drop chance for small essence must be changed inside knightlib.toml
+	#Range: 0.0 ~ 1.0
+	"Drop chance for ratman eye" = 0.4
+	#Range: 0.0 ~ 1.0
+	"Drop chance for lizzy scale" = 0.3
+
+["Armor Set Passives Configuration"]
+	"Should Bamboo Set push players?" = false
+	#Range: 5 ~ 30
+	"Teleport radius for Enderman Set" = 10
+	#Range: 0.1 ~ 1.0
+	"Chance for Forze Set to deflect" = 0.3
+	#Range: 0.1 ~ 2.0
+	"Damage multiplier for Forze Set deflection" = 0.5
+	#Range: 0.1 ~ 1.0
+	"Chance for Silver Set to burn" = 0.3
+	#Range: 0.1 ~ 2.0
+	"Healing multiplier per hit for Hollow Set (healing won't be higher than victim's health)" = 0.25
+	#Range: 1.0 ~ 2.0
+	"Damage multiplier for Dragon Set" = 1.15
+	#Range: 0.1 ~ 1.0
+	"Chance of applying Wither with Wither Set" = 0.3
+	"Should Warlord Set effect apply to itself?" = false
+	#Range: 1 ~ 40
+	"Effect radius for Warlord Set" = 15
+	#Range: 0.5 ~ 10.0
+	"Healing amount for Zombie Set" = 1.0
+	#Range: 1 ~ 1000
+	"Time in ticks for Zombie Set healing interval" = 120
+	#Range: 0.0 ~ 1.0
+	"Fall damage multiplier for Deepslate Set" = 0.2
+	#Range: 0.0 ~ 1.0
+	"Chance to apply Darkness for Evoker Set" = 0.25
+	#Range: 0.0 ~ 1.0
+	"Damage received multiplier for Squire Set" = 0.85
+	#Range: 0.0 ~ 1.0
+	"Chance to apply Fire for Blaze Set" = 0.4
+	#Range: 1 ~ 100
+	"Minimum seconds on fire for Blaze Set" = 2
+	#Range: 1 ~ 200
+	"Maximum seconds on fire for Blaze Set" = 8
+	#Range: 0.0 ~ 1.0
+	"Explosion damage multiplier for Creeper Set" = 0.1
+	#Range: 0 ~ 100
+	"Maximum height to apply effect for Silverfish Set" = 50
+	#Range: 0 ~ 15
+	"Maximum light level to grant effect for Skulk Set" = 4
+
+["Armor Set Passives Enabler Configuration"]
+	"Enable Deepslate Set Passive" = true
+	"Enable Evoker Set Passive" = true
+	"Enable Squire Set Passive" = true
+	"Enable Blaze Set Passive" = true
+	"Enable Dragon Set Passive" = true
+	"Enable Bamboo Set Green Passive" = true
+	"Enable Shinobi Set Passive" = true
+	"Enable Bamboo Set Passive" = true
+	"Enable Path Set Passive" = true
+	"Enable Bow Set Passive" = true
+	"Enable Bat Set Passive" = true
+	"Enable Shield Set Passive" = true
+	"Enable Phantom Set Passive" = true
+	"Enable Horn Set Passive" = true
+	"Enable Sea Set Passive" = true
+	"Enable Pirate Set Passive" = true
+	"Enable Spider Set Passive" = true
+	"Enable Nether Set Passive" = true
+	"Enable Skulk Passive" = true
+	"Enable Straw Hat Set Passive" = true
+	"Enable Enderman Set Passive" = true
+	"Enable Veteran Set Passive" = true
+	"Enable Forze Set Passive" = true
+	"Enable Creeper Set Passive" = true
+	"Enable Polar Passive" = true
+	"Enable Silver Set Passive" = true
+	"Enable Hollow Set Passive" = true
+	"Enable Wither Set Passive" = true
+	"Enable Apple Set Passive" = true
+	"Enable Conquistador Set Passive" = true
+	"Enable Witch Passive" = true
+	"Enable Tengu Helmet Passive" = true
+	"Enable Husk Set Passive" = true
+	"Enable Bamboo Set Blue Passive" = true
+	"Enable Warlord Set Passive" = true
+	"Enable Zombie Set Passive" = true
+	"Enable Silverfish Set Passive" = true
+	"Enable Skeleton Set Passive" = true

@@ -1,0 +1,11 @@
+{
+	"miniDurabilityBars": "CENTER",
+	"statusEffectIconTimers": true,
+	"showXpBarWhenMounted": true,
+	"showHungerBarWhenMounted": true,
+	"lowerFireOverlay": true,
+	"removeFireOverlayWhenImmune": true,
+	"raiseChatWhenWearingArmor": true,
+	"creativeModeLavaVision": true,
+	"removeNightVisionFlickering": true
+}

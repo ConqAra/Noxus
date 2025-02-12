@@ -1,0 +1,7 @@
+
+# Should space-clicking move all items even if an empty slot was clicked?
+allowBulkTransferAllOnEmptySlot = false
+
+# Use the client implementation even on servers that have the mod installed - only useful for development purposes.
+forceClientImplementation = false
+

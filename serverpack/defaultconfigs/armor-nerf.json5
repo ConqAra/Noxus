@@ -1,0 +1,6 @@
+{
+	"armorPercentage": 0.5,
+	"protectionPerPoint": 0.019999999552965164,
+	"removeArmorLimit": true,
+	"armorFormula": "flat_toughness"
+}

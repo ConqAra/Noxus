@@ -1,0 +1,32 @@
+{
+	"maxNutrition": 100,
+	"negativeNutrition": 10,
+	"positiveNutrition": 90,
+	"posX": 162,
+	"posY": 5,
+	// Used for the nutrition gui
+	"carbohydrateItemId": "minecraft:sugar",
+	"proteinItemId": "minecraft:chicken",
+	"fatItemId": "minecraft:porkchop",
+	"vitaminItemId": "minecraft:apple",
+	"mineralItemId": "minecraft:iron_nugget",
+	// Disable default vanilla & modded datapacks below
+	"vanillaMinecraftDefaultDatapack": true,
+	"adventurezDefaultCompat": true,
+	"betterendDefaultCompat": true,
+	"betternetherDefaultCompat": true,
+	"cornexpansionDefaultCompat": true,
+	"croptopiaDefaultCompat": true,
+	"dehydrationDefaultCompat": true,
+	"vineryDefaultCompat": true,
+	"farmandcharmDefaultCompat": true,
+	"farmersdelightDefaultCompat": true,
+	"fishofthievesDefaultCompat": true,
+	"livingthingsDefaultCompat": true,
+	"moredelightDefaultCompat": true,
+	"naturesspiritDefaultCompat": true,
+	"oceansdelightDefaultCompat": true,
+	"thebumblezoneDefaultCompat": true,
+	"ubesdelightDefaultCompat": true,
+	"wilderwildDefaultCompat": true
+}
