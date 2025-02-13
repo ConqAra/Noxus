@@ -13,4 +13,4 @@ a hard modpack based off of the [nox](https://github.com/qxeii/nox-renoxed) mod.
 - [armor is nerfed](https://github.com/ryleu/armor-nerf). leather, gold, and chainmail armor have been reworked for more 'unique' uses.
 - villager trades are nerfed. diamond trades are no longer enchanted. armorer no longer trades diamond chestplates or leggings.
 
-note: don't play on hardcore, it's not the intended experience!!! the difficulty should only be on hard, but you can play on normal or easy too if you're a wuss.
+note: **don't play on hardcore**, it's not the intended experience!!! the difficulty should only be on hard, but you can play on normal or easy too if you're a wuss.
