@@ -29,7 +29,7 @@
   "endermiteFlowerSpawn": true,
   "sleepApplyGlowing": true,
   "sleepExtendToSeaLevel": true,
-  "sleepHorizontalSearchDistance": 50,
+  "sleepHorizontalSearchDistance": 40,
   "sleepMinVerticalSearchDistance": 20,
   "creepersPounceAtTarget": true,
   "creepersPounceCooldown": 50,

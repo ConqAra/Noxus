@@ -126,16 +126,16 @@ blockRaycastTimeout = 0
 # Non-registry Tab Providers like player_inventory and vehicle_inventory can't be disabled here
 # 
 [registryProviderDefaults]
-	"inventory_tabs:vehicle_inventory" = true
-	"inventory_tabs:block_ender_chest" = true
-	"inventory_tabs:item_unique" = true
-	"inventory_tabs:block_simple" = true
-	"inventory_tabs:player_inventory" = true
-	"inventory_tabs:entity_sneak" = true
-	"inventory_tabs:item_sneak" = true
-	"inventory_tabs:block_chest" = true
-	"inventory_tabs:item_simple" = true
-	"inventory_tabs:entity_simple" = true
 	"inventory_tabs:block_shulker_box" = true
-	"inventory_tabs:block_simple_storage" = true
+	"inventory_tabs:block_ender_chest" = true
+	"inventory_tabs:block_chest" = true
 	"inventory_tabs:block_unique" = true
+	"inventory_tabs:block_simple_storage" = true
+	"inventory_tabs:block_simple" = true
+	"inventory_tabs:entity_sneak" = true
+	"inventory_tabs:entity_simple" = true
+	"inventory_tabs:item_unique" = true
+	"inventory_tabs:item_sneak" = true
+	"inventory_tabs:item_simple" = true
+	"inventory_tabs:player_inventory" = true
+	"inventory_tabs:vehicle_inventory" = true

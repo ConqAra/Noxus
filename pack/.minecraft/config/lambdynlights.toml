@@ -68,6 +68,7 @@ mode = "fancy"
 				player = true
 				pufferfish = true
 				potion = true
+				trident = true
 				villager = true
 				wolf = true
 				skeleton_horse = true
