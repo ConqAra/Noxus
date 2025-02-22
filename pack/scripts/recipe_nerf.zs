@@ -67,3 +67,4 @@ craftingTable.addShaped("sword", <item:minecraft:stone_sword>, [
     [stick]
 ]);
 
+craftingTable.addShapeless("hp_bandage", <item:imbleeding:soaked_bandage>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:strong_healing"}), [<item:imbleeding:honey_bandage>, <item:farmersdelight:melon_juice>, <item:minecraft:sweet_berries>, <item:minecraft:potion>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:strong_healing"})]);
