@@ -12,7 +12,7 @@ a hard modpack based off of the [nox](https://github.com/qxeii/nox-renoxed) mod.
 - diamond armor and tools are no longer craftable. they now require a smithing table with their iron counterparts and a **one-use** diamond smithing template.
 - [armor is nerfed](https://github.com/ryleu/armor-nerf). leather, gold, and chainmail armor have all been reworked for more 'unique' use-cases.
 - villager trades are nerfed. diamond trades are no longer enchanted. armorer no longer trades diamond chestplates or leggings.
-- [enchanting is reworked](https://github.com/Akinesis/better-enchanting). enchanting as a mechanic now has more freedom; you can actually select your enchantments in the enchanting table! however, each enchantment now needs a unique item ontop of lapis and xp. obtaining stronger enchantments will require some unique items that are expensive or tedious to craft.
+- [enchanting is reworked](https://github.com/Akinesis/better-enchanting). enchanting as a mechanic now has more freedom; you can actually select your enchantments in the enchanting table! however, on-top of lapis and xp, each enchantment now needs a unique item that's been tailored for it. obtaining stronger enchantments will require some unique items that are expensive or tedious to craft.
 
 sidenote: **don't play on hardcore**, it's not the intended experience!!! the difficulty should only be on hard, but you can play on normal or easy too if you're a wuss.
 
