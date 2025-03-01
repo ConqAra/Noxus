@@ -1,0 +1,9 @@
+{
+  "shorthand_size": 2,               // 0 - 9  Default: 2
+  "tool_belt_additions": "",         // !!DOES NOTING!! SOON TO BE REMOVED!
+  "shorthand_additions": "",
+  "extend_shorthand_by_advancement": "beansbackpacks:shorthand/level_30, story/enter_the_end",
+  "keep_back_on_death": false,       // On death, the player will drop their equipment in the Back Slot : Default: false
+  "keep_shorthand_on_death": false,  // On death, the player will drop their equipment in the Shorthand : Default: false
+  "do_nbt_stacking": false           // Matching items which do not stack due to differing nbt now can stack : Default: false
+}

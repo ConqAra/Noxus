@@ -19,28 +19,14 @@ version = 3
 #  Available variables: is_windows, is_j9vm, is_client, cpus, mem_gb
 # 
 defaultGlobalExecutorParallelismExpression = "max(1,min(if(is_client,(cpus/2.66+1),(cpus/1.5)),if(is_j9vm,((mem_gb-(if(is_client,0.5,0.2)))/0.2),((mem_gb-(if(is_client,0.8,0.5)))/0.2))))"
-# (Default: 7) Configures the parallelism of global executor
+# (Default: 10) Configures the parallelism of global executor
 globalExecutorParallelism = "default"
-
-	[clientSideConfig.modifyMaxVDConfig]
-		# (Default: true) Enable client-side support for extended render distance protocol (c2me:ext_render_distance_v1)
-		# This allows requesting render distances higher than 127 chunks from the server
-		# 
-		# Requires Fabric API (currently available)
-		# 
-		# Note: The server must advertise support this protocol for this to work
-		# 
-		enableExtRenderDistanceProtocol = false
-		# (Default: true) Whether to modify maximum view distance
-		enabled = false
-		# (Default: 74) Max render distance allowed in game options
-		maxViewDistance = "default"
 
 [noTickViewDistance]
 	# (Default: true) Whether to use compatibility mode to send chunks 
 	#  This may fix some mod compatibility issues
 	compatibilityMode = false
-	# (Default: 14) No-tick view distance max concurrent chunk loads 
+	# (Default: 20) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = 2
 	# (Default: false) Whether to ensure correct chunks within normal render distance 

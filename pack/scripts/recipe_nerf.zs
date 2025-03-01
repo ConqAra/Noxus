@@ -18,6 +18,9 @@ craftingTable.remove(<item:minecraft:diamond_axe>);
 craftingTable.remove(<item:minecraft:diamond_hoe>);
 craftingTable.remove(<item:minecraft:diamond_sword>);
 craftingTable.remove(<item:minecraft:shield>);
+craftingTable.remove(<item:imbleeding:bandage>);
+craftingTable.remove(<item:imbleeding:splint>);
+craftingTable.remove(<item:minecraft:netherite_upgrade_smithing_template>);
 
 var stone = <item:minecraft:stone>;
 
@@ -66,5 +69,21 @@ craftingTable.addShaped("sword", <item:minecraft:stone_sword>, [
     [stone],
     [stick]
 ]);
+
+craftingTable.addShaped("smithing_template_og", <item:minecraft:netherite_upgrade_smithing_template>, [
+    [<item:minecraft:netherite_scrap>, <item:minecraft:diamond_block>, <item:minecraft:netherite_scrap>],
+    [<item:minecraft:netherite_scrap>, <item:minecraft:netherrack>, <item:minecraft:netherite_scrap>],
+    [<item:minecraft:netherite_scrap>, <item:minecraft:netherite_scrap>, <item:minecraft:netherite_scrap>]
+]);
+
+craftingTable.addShaped("smithing_template_dupe", <item:minecraft:netherite_upgrade_smithing_template> * 2, [
+    [<item:minecraft:gold_block>, <item:minecraft:netherite_upgrade_smithing_template>, <item:minecraft:gold_block>],
+    [<item:minecraft:gold_block>, <item:minecraft:netherrack>, <item:minecraft:gold_block>],
+    [<item:minecraft:gold_block>, <item:minecraft:gold_block>, <item:minecraft:gold_block>]
+]);
+
+craftingTable.addShapeless("splint", <item:imbleeding:splint>, [<item:minecraft:stick>, <tag:item:imbleeding:bandages>, <item:minecraft:stick>]);
+
+craftingTable.addShapeless("bandage", <item:imbleeding:bandage>, [<tag:item:minecraft:wool>, <tag:item:minecraft:wool>, <item:minecraft:string>]);
 
 craftingTable.addShapeless("hp_bandage", <item:imbleeding:soaked_bandage>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:strong_healing"}), [<item:imbleeding:honey_bandage>, <item:farmersdelight:melon_juice>, <item:minecraft:sweet_berries>, <item:minecraft:potion>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:strong_healing"})]);

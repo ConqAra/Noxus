@@ -1,0 +1,6 @@
+{
+//"beansbackpacks:iron_backpack": {"bundle":{"size":8},"equipable": {"slots": "body","backpack_texture": "beansbackpacks:iron","sound_event": ["beansbackpacks:metal_equip", "beansbackpacks:metal_place"]},"placeable": {"backpack_texture": "beansbackpacks:iron"}}
+//"minecraft:leggings" : {"bundle": {"size": 2,"sound": "soft"},"equipable": {"slots": "legs"}}
+//"beansbackpacks:netherite_bucket" : {"bucket": {"size": 8}}
+//"beansbackpacks:rose_boots" : {"equipable": {"slots": "feet","equipment_model": {"leftLeg": "beansbackpacks:backpack/rose_boot_left","rightLeg": "beansbackpacks:backpack/rose_boot_right"},"sound_event": ["item.armor.equip_generic"]},"modifiers": [{"type": "generic.scale","amount": 0.10,"slot": "feet","id": "rose_boot_step","operation": "add_multiplied_base"},{"type": "generic.movement_speed","amount": 0.10,"slot": "feet","id": "rose_boot_step","operation": "add_multiplied_base"},{"type": "generic.step_height","amount": 0.5,"slot": "feet","id": "rose_boot_step","operation": "add_value"}]}
+}

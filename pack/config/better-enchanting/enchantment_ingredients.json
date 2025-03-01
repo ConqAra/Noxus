@@ -416,6 +416,15 @@
   "guarding:barbed": [
     "betterenchanting:essence_of_thorn"
   ],
+  "betterarcheology:penetrating_strike": [
+    "betterenchanting:essence_of_sharpness"
+  ],
+  "betterarcheology:tunneling": [
+    "betterenchanting:essence_of_mining"
+  ],
+  "betterarcheology:soaring_winds": [
+    "betterenchanting:essence_of_wind"
+  ],
   "eternal_starlight:fearless": [
     "minecraft:sticky_piston",
     "betterenchanting:essence_of_knockback"

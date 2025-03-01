@@ -49,6 +49,7 @@ mode = "fancy"
 				glow_squid = true
 				glow_item_frame = false
 				squid = true
+				snowball = true
 				creeper = true
 				lightning_bolt = true
 				enderman = true
@@ -83,6 +84,9 @@ mode = "fancy"
 				witch = true
 				cod = true
 				spider = true
+
+			[light_sources.settings.entities.beansbackpacks]
+				backpack = true
 
 			[light_sources.settings.entities.hwg]
 				shell = true

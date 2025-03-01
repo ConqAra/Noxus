@@ -1,0 +1,8 @@
+#Globally disable all toggleable functionality within the async system. Set to true to stop all asynchronous operations.
+disabled = false
+#Maximum number of threads to use for parallel processing. Set to -1 to use default value. Note: If 'virtualThreads' is enabled, this setting will be ignored.
+paraMax = -1
+#Modifies entity movement processing: true for synchronous movement (vanilla mechanics intact, less performance), false for asynchronous movement (better performance, may break mechanics).
+enableEntityMoveSync = false
+#List of entity class for sync processing.
+synchronizedEntities = ["minecraft:item", "minecraft:experience_orb", "minecraft:tnt"]
