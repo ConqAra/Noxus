@@ -49,7 +49,7 @@ damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
 resourcePacks:["vanilla","fabric","file/Flintl0cks_v2.1.zip","moonlight:mods_dynamic_assets"]
-incompatibleResourcePacks:["armortrimitemfix","badoptimizations","balm-fabric","bookshelf","collectorsalbum","configuration","crafttweaker","eternal_starlight","fog","hardcorerevival","inventoryessentials","jade","mendable_anvils","modernfix","mr_dungeons_andtaverns","mru","mynethersdelight","netherportalfix","nopoisonregen","terrablender","toms_storage","watut","yet_another_config_lib_v3","zume"]
+incompatibleResourcePacks:["armortrimitemfix","artifacts","asyncparticles","badoptimizations","balm-fabric","bookshelf","brewinandchewin","charmofundying","collectorsalbum","configuration","crafttweaker","eternal_starlight","fog","hardcorerevival","inventoryessentials","jade","mendable_anvils","modernfix","mr_dungeons_andtaverns","mru","mynethersdelight","netherportalfix","nopoisonregen","redirected","rrc_horde_nights","spectrelib","terrablender","toms_storage","txnilib","watut","yet_another_config_lib_v3","zume"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -127,6 +127,8 @@ key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown
 key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown
 key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown
 key_auditory.sound_reload_key:key.keyboard.unknown
+key_key.boatism.power_level_up:key.keyboard.unknown
+key_key.boatism.power_level_down:key.keyboard.unknown
 key_key.deathlog.death_screen:key.keyboard.end
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.eternal_starlight.switch_crest:key.keyboard.h

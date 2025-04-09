@@ -33,7 +33,7 @@ globalExecutorParallelism = "default"
 		enableExtRenderDistanceProtocol = false
 		# (Default: true) Whether to modify maximum view distance
 		enabled = false
-		# (Default: 74) Max render distance allowed in game options
+		# (Default: 65) Max render distance allowed in game options
 		maxViewDistance = "default"
 
 [noTickViewDistance]

@@ -70,12 +70,6 @@ craftingTable.addShaped("sword", <item:minecraft:stone_sword>, [
     [stick]
 ]);
 
-craftingTable.addShaped("smithing_template_og", <item:minecraft:netherite_upgrade_smithing_template>, [
-    [<item:minecraft:netherite_scrap>, <item:minecraft:diamond_block>, <item:minecraft:netherite_scrap>],
-    [<item:minecraft:netherite_scrap>, <item:minecraft:netherrack>, <item:minecraft:netherite_scrap>],
-    [<item:minecraft:netherite_scrap>, <item:minecraft:netherite_scrap>, <item:minecraft:netherite_scrap>]
-]);
-
 craftingTable.addShaped("smithing_template_dupe", <item:minecraft:netherite_upgrade_smithing_template> * 2, [
     [<item:minecraft:gold_block>, <item:minecraft:netherite_upgrade_smithing_template>, <item:minecraft:gold_block>],
     [<item:minecraft:gold_block>, <item:minecraft:netherrack>, <item:minecraft:gold_block>],

@@ -1,0 +1,78 @@
+{
+	/* -> General
+	   (default: true)
+	*/
+	"rarityTooltip": false,
+	// (default: true)
+	"itemBadges": true,
+	// (default: 1.0)
+	"scaleFactor": 1.0,
+	/* -> Pop-up Animation
+	   (default: true)
+	*/
+	"popUpAnimation": false,
+	// (default: 1.5)
+	"popUpAnimationTime": 1.5,
+	// (default: 1.0)
+	"popUpAnimationMagnitude": 1.0,
+	/* -> Item Preview Animation
+	   (default: true)
+	*/
+	"itemPreviewAnimation": true,
+	// (default: 1.0)
+	"itemPreviewAnimationTime": 1.0,
+	// (default: 2.0)
+	"itemPreviewAnimationMagnitude": 2.0,
+	/* -> Border
+	   RARITY/ITEM_NAME/CUSTOM (default: RARITY)
+	*/
+	"borderColor": "RARITY",
+	"customBorderColors": {
+		// (default: #5000FF50)
+		"common": "#5000FF50",
+		// (default: #FFFF55FF)
+		"uncommon": "#FFFF55FF",
+		// (default: #55FFFFFF)
+		"rare": "#55FFFFFF",
+		// (default: #FF00FFFF)
+		"epic": "#FF00FFFF",
+		// (default: #5000FF50)
+		"endColor": "#5000FF50"
+	},
+	/* -> Background
+	   (default: #100010F0)
+	*/
+	"backgroundColor": "#100010F0",
+	/* -> Food & Drinks
+	   (default: true)
+	*/
+	"hungerTooltip": true,
+	// (default: true)
+	"saturationTooltip": true,
+	// OFF/WITHOUT_ICONS/WITH_ICONS (default: WITH_ICONS)
+	"effectsTooltip": "WITH_ICONS",
+	/* -> Mobs
+	   (default: 0.2)
+	*/
+	"rotationSpeed": 0.20000000298023224,
+	// (default: true)
+	"armorTooltip": true,
+	// (default: true)
+	"bucketTooltip": true,
+	// (default: true)
+	"spawnEggTooltip": true,
+	/* -> Map
+	   (default: true)
+	*/
+	"mapTooltip": true,
+	/* -> Painting
+	   (default: true)
+	*/
+	"paintingTooltip": true,
+	/* -> Durability
+	   OFF/VALUE/PERCENTAGE (default: VALUE)
+	*/
+	"durabilityTooltip": "VALUE",
+	// (default: false)
+	"durabilityBar": false
+}

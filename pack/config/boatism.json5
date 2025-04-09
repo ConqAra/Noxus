@@ -1,0 +1,18 @@
+{
+	// Use Scrolling in a boat to change Power Level
+	"powerLevelScrolling": true,
+	// General Health value
+	"health": 6.0,
+	// Indication of low health
+	"lowHealth": 3.0,
+	// Base fuel capacity
+	"baseFuelCapacityInBuckets": 10,
+	// Overheat limit
+	"maxBaseOverheat": 1000,
+	// Engine status display on Hud
+	"engineHudOverlay": {
+		"shouldDisplay": false,
+		"x": 20,
+		"y": 15
+	}
+}

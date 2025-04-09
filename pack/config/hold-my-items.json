@@ -1,0 +1,9 @@
+{
+  "swingSpeed": 9,
+  "swimmingAnimation": true,
+  "climbAndCrawl": true,
+  "viewmodelXOffset": 0.0,
+  "viewmodelYOffset": 0.0,
+  "viewmodelZOffset": 0.0,
+  "mb3DCompat": false
+}

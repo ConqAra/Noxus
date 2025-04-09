@@ -1,0 +1,14 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config (or just use Forge)",
+  "Configs for End\u0027s Delight": {
+    "allowedMobs": [
+      "minecraft:enderman",
+      "minecraft:endermite",
+      "minecraft:ender_dragon",
+      "minecraft:shulker"
+    ],
+    "enableGristleTeleport": true,
+    "teleportRangeSize": 24,
+    "teleportMaxHeight": 32
+  }
+}
