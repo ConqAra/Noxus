@@ -1,5 +1,5 @@
 # Configuration related to card package drop distributions
-# Keep in mind to actually change contents of the pack you need to make custom datapack
+# Keep in mind to actually change drops of the pack you need to make custom datapack
 # See wiki for that
 packDrops:
   # Defines how many cards will be dropped from normal card packs
@@ -129,7 +129,7 @@ packDrops:
     mythicalCardDropChance: 20
 
 # Configuration related to mob drops
-# Keep in mind to actually change contents of the pack you need to make custom datapack
+# Keep in mind to actually change drops of the pack you need to make custom datapack
 # See wiki for that
 mobDrops:
   # Chance that any card pack drop will be dropped

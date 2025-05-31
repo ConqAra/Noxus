@@ -1,78 +1,160 @@
 {
-	/* -> General
-	   (default: true)
-	*/
-	"rarityTooltip": false,
-	// (default: true)
-	"itemBadges": true,
-	// (default: 1.0)
-	"scaleFactor": 1.0,
-	/* -> Pop-up Animation
-	   (default: true)
-	*/
-	"popUpAnimation": false,
-	// (default: 1.5)
-	"popUpAnimationTime": 1.5,
-	// (default: 1.0)
-	"popUpAnimationMagnitude": 1.0,
-	/* -> Item Preview Animation
-	   (default: true)
-	*/
-	"itemPreviewAnimation": true,
-	// (default: 1.0)
-	"itemPreviewAnimationTime": 1.0,
-	// (default: 2.0)
-	"itemPreviewAnimationMagnitude": 2.0,
-	/* -> Border
-	   RARITY/ITEM_NAME/CUSTOM (default: RARITY)
-	*/
-	"borderColor": "RARITY",
-	"customBorderColors": {
-		// (default: #5000FF50)
-		"common": "#5000FF50",
-		// (default: #FFFF55FF)
-		"uncommon": "#FFFF55FF",
-		// (default: #55FFFFFF)
-		"rare": "#55FFFFFF",
-		// (default: #FF00FFFF)
-		"epic": "#FF00FFFF",
-		// (default: #5000FF50)
-		"endColor": "#5000FF50"
+	"general": {
+		/* Shows the rarity of an item in its tooltip.
+		   (default: true)
+		*/
+		"rarityTooltip": true,
+		/* Shows the category of an item in a badge on its tooltip.
+		   (default: true)
+		*/
+		"itemBadges": true,
+		/* Adjusts the size of tooltips.
+		   A scale of 100% displays the tooltip at its default size.
+		   (default: 1.0)
+		*/
+		"scaleFactor": 1.0
 	},
-	/* -> Background
-	   (default: #100010F0)
-	*/
-	"backgroundColor": "#100010F0",
-	/* -> Food & Drinks
-	   (default: true)
-	*/
-	"hungerTooltip": true,
-	// (default: true)
-	"saturationTooltip": true,
-	// OFF/WITHOUT_ICONS/WITH_ICONS (default: WITH_ICONS)
-	"effectsTooltip": "WITH_ICONS",
-	/* -> Mobs
-	   (default: 0.2)
-	*/
-	"rotationSpeed": 0.20000000298023224,
-	// (default: true)
-	"armorTooltip": true,
-	// (default: true)
-	"bucketTooltip": true,
-	// (default: true)
-	"spawnEggTooltip": true,
-	/* -> Map
-	   (default: true)
-	*/
-	"mapTooltip": true,
-	/* -> Painting
-	   (default: true)
-	*/
-	"paintingTooltip": true,
-	/* -> Durability
-	   OFF/VALUE/PERCENTAGE (default: VALUE)
-	*/
-	"durabilityTooltip": "VALUE",
-	// (default: false)
-	"durabilityBar": false
+	"popUpAnimation": {
+		/* Toggles the tooltip pop-up animation.
+		   (default: true)
+		*/
+		"enabled": false,
+		/* Duration of the pop-up animation in seconds.
+		   (default: 1.5)
+		*/
+		"time": 1.5,
+		/* Magnitude of the pop-up animation.
+		   (default: 1.0)
+		*/
+		"magnitude": 1.0
+	},
+	"itemPreviewAnimation": {
+		/* Toggles the item preview bouncing animation.
+		   (default: true)
+		*/
+		"enabled": true,
+		/* Duration of the item preview animation in seconds.
+		   (default: 1.0)
+		*/
+		"time": 1.0,
+		/* Magnitude of the item preview animation.
+		   (default: 2.0)
+		*/
+		"magnitude": 2.0
+	},
+	"border": {
+		/* Determines how the border color of tooltips is set.
+		   RARITY/ITEM_NAME/CUSTOM (default: RARITY)
+		*/
+		"borderColor": "RARITY",
+		// Custom border colors when borderColor is set to CUSTOM.
+		"customBorderColors": {
+			/* 'Common' rarity border color.
+			   (default: #5000FF50)
+			*/
+			"common": "#5000FF50",
+			/* 'Uncommon' rarity border color.
+			   (default: #FFFF55FF)
+			*/
+			"uncommon": "#FFFF55FF",
+			/* 'Rare' rarity border color.
+			   (default: #55FFFFFF)
+			*/
+			"rare": "#55FFFFFF",
+			/* 'Epic' rarity border color.
+			   (default: #FF00FFFF)
+			*/
+			"epic": "#FF00FFFF",
+			/* Gradient end color for the border.
+			   (default: #5000FF50)
+			*/
+			"endColor": "#5000FF50"
+		}
+	},
+	"background": {
+		/* Background color of the tooltip.
+		   (default: #100010F0)
+		*/
+		"backgroundColor": "#100010F0"
+	},
+	"foodAndDrinks": {
+		/* Shows the maximum hunger which can be gained from an item in its tooltip.
+		   (default: true)
+		*/
+		"hungerTooltip": true,
+		/* Shows the maximum saturation which can be gained from an item in its tooltip.
+		   (default: true)
+		*/
+		"saturationTooltip": true,
+		/* Shows a list of effects applied on consuming an item in its tooltip.
+		   OFF/WITHOUT_ICONS/WITH_ICONS (default: WITH_ICONS)
+		*/
+		"effectsTooltip": "WITH_ICONS"
+	},
+	"mobs": {
+		/* The rotation speed of the model.
+		   (default: 0.2)
+		*/
+		"rotationSpeed": 0.20000000298023224,
+		/* Shows a preview of the armor piece on an armor stand.
+		   (default: true)
+		*/
+		"armorTooltip": true,
+		/* Shows a preview of the horse armor on a horse.
+		   (default: true)
+		*/
+		"horseArmorTooltip": true,
+		/* Shows a preview of the wolf armor on a wolf.
+		   (default: true)
+		*/
+		"wolfArmorTooltip": true,
+		/* Shows a preview of the bucket entity in a bucket.
+		   (default: true)
+		*/
+		"bucketTooltip": true,
+		/* Shows a preview of the spawn egg entity.
+		   (default: true)
+		*/
+		"spawnEggTooltip": true
+	},
+	"mapTooltip": {
+		/* Shows a preview of the filled map in its tooltip.
+		   (default: true)
+		*/
+		"enabled": true
+	},
+	"paintingTooltip": {
+		/* Shows a preview of the painting in its tooltip.
+		   (default: true)
+		*/
+		"enabled": true
+	},
+	"durability": {
+		/* Shows the durability of an item in its tooltip.
+		   OFF/VALUE/PERCENTAGE (default: VALUE)
+		*/
+		"durabilityTooltip": "VALUE",
+		/* Shows the durability of an item, represented by a bar, in its tooltip.
+		   (default: false)
+		*/
+		"durabilityBar": false
+	},
+	"heldItemTooltip": {
+		/* Toggles the improved held items tooltips feature.
+		   (default: true)
+		*/
+		"enabled": false,
+		/* Shows a neat background behind the held item tooltip text.
+		   (default: true)
+		*/
+		"showBackground": true,
+		/* Shows a dynamic tilt animation for the held item tooltip when scrolling the hotbar.
+		   (default: true)
+		*/
+		"tiltAnimation": true,
+		/* Defines the line limit for the held item tooltip.
+		   (default: 10)
+		*/
+		"maxLines": 10
+	}
 }

@@ -1,6 +1,7 @@
 {
   "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config (or just use Forge)",
   "minimap": {
+    "shows_map_background": false,
     "hide_when_in_hand": true,
     "only_show_y_when_has_slices": true,
     "scale": 1.0,

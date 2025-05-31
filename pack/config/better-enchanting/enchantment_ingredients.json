@@ -408,6 +408,41 @@
   "enchantplus:sword/fear": [
     "betterenchanting:essence_of_fear"
   ],
+  "dualswords:parry": [
+    "minecraft:shield",
+    "minecraft:diamond_sword",
+    "betterenchanting:essence_of_combat"
+  ],
+  "dualswords:riposte": [
+    "minecraft:shield",
+    "minecraft:diamond_sword",
+    "betterenchanting:essence_of_combat"
+  ],
+  "dualswords:deflect": [
+    "minecraft:shield",
+    "minecraft:diamond_sword",
+    "betterenchanting:essence_of_combat"
+  ],
+  "dualswords:lunge": [
+    "minecraft:zombie_head",
+    "minecraft:diamond_shovel",
+    "betterenchanting:essence_of_combat"
+  ],
+  "dualswords:thrusting": [
+    "minecraft:diamond_shovel",
+    "betterenchanting:essence_of_combat"
+  ],
+  "dualswords:forceful": [
+    "minecraft:diamond_shovel",
+    "betterenchanting:essence_of_combat"
+  ],
+  "dualswords:daisho": [
+    "minecraft:iron_sword",
+    "minecraft:diamond_sword",
+    "minecraft:netherite_sword",
+    "betterenchanting:essence_of_combat",
+    "betterenchanting:essence_of_sharpness"
+  ],
   "guarding:pummeling": [
     "minecraft:piston",
     "minecraft:anvil",

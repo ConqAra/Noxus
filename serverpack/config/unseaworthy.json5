@@ -1,0 +1,12 @@
+{
+	// Interval between boat destruction checks (ticks)
+	"interval": 200,
+	// Chance that a boat will break each check
+	"breakChance": 100,
+	// Minimum water depth to sink boats.
+	"minDepth": 0,
+	// What happens to wrecked boats?
+	"fate": "DESTROY",
+	// What weather is required for boats to sink?
+	"weatherRequired": "RAINING"
+}

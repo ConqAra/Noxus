@@ -71,6 +71,7 @@ mode = "fancy"
 				cat = true
 				zombie = true
 				sheep = true
+				fireball = true
 				player = true
 				pufferfish = true
 				potion = true
@@ -81,7 +82,9 @@ mode = "fancy"
 				fishing_bobber = true
 				zombie_villager = true
 				tnt_minecart = true
+				chest_boat = true
 				boat = true
+				small_fireball = true
 				polar_bear = true
 				hopper_minecart = true
 				falling_block = true
@@ -91,8 +94,24 @@ mode = "fancy"
 				cod = true
 				spider = true
 
+			[light_sources.settings.entities.smallships]
+				galley = true
+
 			[light_sources.settings.entities.beansbackpacks]
 				backpack = true
+
+			[light_sources.settings.entities.frycmobvariants]
+				soul_stealer = true
+				corsair = true
+				armored_spider = true
+				executioner = true
+				cave_creeper = true
+				forgotten = true
+				explorer = true
+				frozen_zombie = true
+				nightmare = true
+				lava_slime = true
+				undead_warrior = true
 
 			[light_sources.settings.entities.hwg]
 				shell = true
@@ -103,6 +122,9 @@ mode = "fancy"
 				shattered_blade = true
 				aethersent_meteor = true
 				the_gatekeeper = true
+
+			[light_sources.settings.entities.boatism]
+				boat_engine = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				ocean_creeper = true

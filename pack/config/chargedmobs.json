@@ -1,0 +1,103 @@
+{
+  "autoGenerate": true,
+  "NaturallyCharged": true,
+  "NaturallyChargedNeedRain": true,
+  "ChargedChange": 0.05,
+  "damageMul": {},
+  "damageAdd": {
+    "minecraft:pillager": 3.0,
+    "minecraft:zombie": 3.0,
+    "minecraft:shulker": 3.0
+  },
+  "armorMul": {
+    "minecraft:breeze": 0.5,
+    "minecraft:drowned": 0.5,
+    "minecraft:ravager": 0.5
+  },
+  "armorAdd": {
+    "minecraft:silverfish": 4.0,
+    "minecraft:creeper": 4.0,
+    "minecraft:ghast": 4.0
+  },
+  "toughnessMul": {},
+  "toughnessAdd": {
+    "minecraft:guardian": 5.0
+  },
+  "knockbackMul": {
+    "minecraft:elder_guardian": 0.5,
+    "minecraft:stray": 0.5,
+    "minecraft:warden": 0.5,
+    "minecraft:slime": 0.5
+  },
+  "knockbackAdd": {
+    "minecraft:bogged": 0.5
+  },
+  "knockbackResistanceMul": {
+    "minecraft:piglin_brute": 0.5,
+    "minecraft:vex": 0.5,
+    "minecraft:husk": 0.5
+  },
+  "knockbackResistanceAdd": {
+    "minecraft:giant": 0.3,
+    "minecraft:phantom": 0.3
+  },
+  "followRangeMul": {
+    "minecraft:illusioner": 0.5,
+    "minecraft:skeleton": 0.5,
+    "minecraft:enderman": 0.5
+  },
+  "followRangeAdd": {
+    "minecraft:zoglin": 16.0,
+    "minecraft:evoker": 16.0
+  },
+  "healthMul": {
+    "minecraft:piglin": 0.5,
+    "minecraft:spider": 0.5
+  },
+  "healthAdd": {
+    "minecraft:blaze": 7.0,
+    "minecraft:vindicator": 7.0,
+    "minecraft:endermite": 7.0,
+    "minecraft:ender_dragon": 7.0,
+    "minecraft:hoglin": 7.0
+  },
+  "moveSpeedMul": {
+    "minecraft:cave_spider": 0.3,
+    "minecraft:magma_cube": 0.3,
+    "minecraft:witch": 0.3,
+    "minecraft:wither": 0.3,
+    "minecraft:zombie_villager": 0.3
+  },
+  "moveSpeedAdd": {
+    "minecraft:zombified_piglin": 0.1,
+    "minecraft:wither_skeleton": 0.1
+  },
+  "flyingSpeedMul": {},
+  "flyingSpeedAdd": {},
+  "spawnReinforcementsMul": {},
+  "spawnReinforcementsAdd": {},
+  "absorptionMul": {},
+  "absorptionAdd": {},
+  "fallDamageMultiplierMul": {},
+  "fallDamageMultiplierAdd": {},
+  "scaleMul": {},
+  "scaleAdd": {},
+  "gravityMul": {},
+  "gravityAdd": {},
+  "jumpStrengthMul": {},
+  "jumpStrengthAdd": {},
+  "safeFallDistanceMul": {},
+  "safeFallDistanceAdd": {},
+  "stepHeightMul": {},
+  "stepHeightAdd": {},
+  "explosionKnockbackResistanceMul": {},
+  "explosionKnockbackResistanceAdd": {},
+  "burningTimeMul": {},
+  "burningTimeAdd": {},
+  "movementEfficiencyMul": {},
+  "movementEfficiencyAdd": {},
+  "oxygenBonusMul": {},
+  "oxygenBonusAdd": {},
+  "waterMovementEfficiencyMul": {},
+  "waterMovementEfficiencyAdd": {}
+}

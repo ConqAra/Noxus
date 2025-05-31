@@ -1,0 +1,3 @@
+# Tooltip with reputation info will be shown when looking at a Villager while holding an item tagged as '#thief:villager_gifts'.
+# Default: true.
+show_villager_reputation_tooltip = true

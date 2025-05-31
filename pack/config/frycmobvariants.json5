@@ -1,0 +1,65 @@
+{
+	// Zombies have a chance to convert into stronger variant when they spawn below this Y level
+	"zombieToForgottenConvertLevelY": 26,
+	// When this value is below 0, chance of converting increases by 1% with every Y level below value specified in previous option
+	"fixedChanceToConvertZombieUnderSelectedYLevel": -1,
+	// Skeletons have a chance to convert into stronger variant when they spawn below this Y level
+	"skeletonToUndeadWarriorConvertLevelY": 26,
+	// When this value is below 0, chance of converting increases by 1% with every Y level below value specified in previous option
+	"fixedChanceToConvertSkeletonUnderSelectedYLevel": -1,
+	// Spiders have a chance to convert into stronger variant when they spawn below this Y level
+	"spiderToArmoredSpiderConvertLevelY": 26,
+	// When this value is below 0, chance of converting increases by 1% with every Y level below value specified in previous option
+	"fixedChanceToConvertSpiderUnderSelectedYLevel": -1,
+	// Creepers have a chance to convert into stronger variant when they spawn below this Y level
+	"creeperToCaveCreeperConvertLevelY": 26,
+	// When this value is below 0, chance of converting increases by 1% with every Y level below value specified in previous option
+	"fixedChanceToConvertCreeperUnderSelectedYLevel": -1,
+	// For example, when set to 10, Wither Skeleton will have 10% chance to convert to Executioner after spawning
+	"witherSkeletonConvertChance": 11,
+	// For example, when set to 10, Ghast will have 10% chance to convert to Nightmare after spawning
+	"ghastConvertChance": 26,
+	// For example, when set to 10, Piglin will have 10% chance to convert to Infected Piglin after spawning
+	"piglinConvertChance": 29,
+	// For example, when set to 10, Piglin Brute will have 10% chance to convert to Infected Piglin Brute after spawning
+	"piglinBruteConvertChance": 39,
+	// For example, when set to 30, Skeleton will have 30% chance to convert to Soul Stealer after spawning (in nether)
+	"skeletonToSoulStealerConvertChance": 31,
+	// For example, when set to 15, Magma Cube will have 15% chance to convert to Lava Slime after spawning
+	"magmaCubeToLavaSlimeConvertChance": 19,
+	// For example, when set to 12, Zombified Piglin will have 12% chance to convert to Zombified Piglin Brute after spawning
+	"zombifiedPiglinConvertChance": 4,
+	// For example, when set to 90, Zombie will have 90% chance to convert to Explorer after spawning in jungle or lush cave
+	"zombieToExplorerConvertChance": 75,
+	// For example, when set to 90, Zombie will have 90% chance to convert to Frozen Zombie after spawning in snowy biome
+	"zombieToFrozenZombieConvertChance": 80,
+	// For example, when set to 90, Zombie will have 90% chance to convert to Bloated Corpse after spawning in swamp
+	"zombieToBloatedCorpseConvertChance": 75,
+	// For example, when set to 70, Spider will have 70% chance to convert to Tropical Spider after spawning in jungle
+	"spiderToTropicalSpiderConvertChance": 75,
+	// For example, when set to 100, Slime will have 100% chance to convert to Toxic Slime after spawning in swamp biomes
+	"slimeToToxicSlimeConvertChance": 70,
+	// For skeletons spawned in ocean or beach. Doesn't affect Corsairs spawning on Shipwrecks
+	"skeletonToCorsairConvertChance": 60,
+	"undeadWarriorAttributes": {
+		// Skeletons with enchanted bow always convert to undead warrior with bow
+		"undeadWarriorSpawnWithBowChance": 50,
+		"undeadWarriorsMinTippedArrowsCount": 1,
+		"undeadWarriorsMaxTippedArrowsCount": 4,
+		"undeadWarriorsTippedArrowDropChancePerTippedArrowHeld": 3,
+		// List of effects (with duration and amplifier) that Undead Warrior's arrow can have in the following pattern: 'StatusEffect;duration;amplifier;StatusEffect;duration;amplifier'
+		"undeadWarriorsArrowEffect": "minecraft:weakness;400;1;minecraft:blindness;80;1;minecraft:instant_damage;1;1"
+	},
+	// Additional magic damage dealt by Soul Stealer. On normal difficulty this value is increased by 1. On hard, by 3
+	"soulStealersBaseMagicDamage": 1.0,
+	// 20 = 1s. Set it to 10 (or lower) to prevent lava from disappearing
+	"timeToRemoveLavaLeftByLavaSlime": 30,
+	// This option affects only Corsairs that spawned on shipwrecks
+	"corsairSpawnWithSwordChance": 42,
+	// Minimal difficulty at which Bloated Corpse's cloud deals poison damage. Set to NONE to remove poison damage from the cloud
+	"bloatedCorpsesCloudPoisonDamageDifficulty": "HARD",
+	"convertZombiesToFrozenZombiesInPowderSnow": true,
+	"convertSkeletonsToCorsairsUnderwater": true,
+	// When true, Frozen Zombies become normal zombies after spending some time exposed to sunlight, fire or water
+	"enableFrozenZombieConvertingToNormalZombie": true
+}
