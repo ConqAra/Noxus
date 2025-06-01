@@ -6,7 +6,7 @@ import crafttweaker.api.resource.ResourceLocation;
 
 <item:minecraft:golden_sword>.definition.addAttributeModifier(<attribute:minecraft:generic.attack_speed>, AttributeModifier.create(<resource:minecraft:golden_sword>, 0.4, <constant:minecraft:attribute/operation:add_value>), <constant:minecraft:equipmentslot/group:mainhand>);
 <item:minecraft:golden_axe>.definition.addAttributeModifier(<attribute:minecraft:generic.attack_speed>, AttributeModifier.create(<resource:minecraft:golden_axe>, 0.4, <constant:minecraft:attribute/operation:add_value>), <constant:minecraft:equipmentslot/group:mainhand>);
-<item:farmersdelight:golden_knife>.definition.addAttributeModifier(<attribute:minecraft:generic.attack_speed>, AttributeModifier.create(<resource:farmersdelight:golden_knife>, -1.4, <constant:minecraft:attribute/operation:add_value>), <constant:minecraft:equipmentslot/group:mainhand>);
+<item:farmersdelight:golden_knife>.definition.addAttributeModifier(<attribute:minecraft:generic.attack_speed>, AttributeModifier.create(<resource:farmersdelight:golden_knife>, 0.4, <constant:minecraft:attribute/operation:add_value>), <constant:minecraft:equipmentslot/group:mainhand>);
 <item:minecraft:turtle_helmet>.definition.addAttributeModifier(<attribute:minecraft:generic.armor_toughness>, AttributeModifier.create(<resource:minecraft:turtle_helmet>, 3, <constant:minecraft:attribute/operation:add_value>), <constant:minecraft:equipmentslot/group:head>);
 <item:minecraft:turtle_helmet>.definition.addAttributeModifier(<attribute:minecraft:generic.armor>, AttributeModifier.create(<resource:minecraft:turtle_helmet>, 3, <constant:minecraft:attribute/operation:add_value>), <constant:minecraft:equipmentslot/group:head>);
 
