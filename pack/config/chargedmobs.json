@@ -82,8 +82,6 @@
   "fallDamageMultiplierAdd": {},
   "scaleMul": {},
   "scaleAdd": {},
-  "gravityMul": {},
-  "gravityAdd": {},
   "jumpStrengthMul": {},
   "jumpStrengthAdd": {},
   "safeFallDistanceMul": {},
@@ -99,5 +97,37 @@
   "oxygenBonusMul": {},
   "oxygenBonusAdd": {},
   "waterMovementEfficiencyMul": {},
-  "waterMovementEfficiencyAdd": {}
+  "waterMovementEfficiencyAdd": {},
+  "immunityLightning": [
+    "minecraft:slime",
+    "minecraft:spider"
+  ],
+  "randomAttribute": [
+    "armorAdd",
+    "followRangeMul",
+    "healthMul",
+    "knockbackResistanceAdd",
+    "followRangeAdd",
+    "healthAdd"
+  ],
+  "banMobs": [
+    "minecraft:hoglin",
+    "minecraft:wither_skeleton",
+    "minecraft:shulker",
+    "minecraft:silverfish",
+    "minecraft:vex",
+    "minecraft:warden",
+    "minecraft:guardian",
+    "minecraft:creeper",
+    "minecraft:piglin_brute",
+    "minecraft:zoglin",
+    "minecraft:breeze",
+    "minecraft:creaking",
+    "minecraft:endermite",
+    "minecraft:phantom",
+    "minecraft:ghast",
+    "minecraft:elder_guardian",
+    "minecraft:magma_cube",
+    "minecraft:blaze"
+  ]
 }
