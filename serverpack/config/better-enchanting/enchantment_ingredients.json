@@ -202,6 +202,11 @@
   "minecraft:channeling": [
     "betterenchanting:essence_of_channeling"
   ],
+  "farmersdelight:backstabbing": [
+    "minecraft:arrow",
+    "minecraft:rabbit_hide",
+    "betterenchanting:essence_of_sharpness"
+  ],
   "enchantplus:tools/auto_smelt": [
     "betterenchanting:essence_of_smelting"
   ],
@@ -335,6 +340,16 @@
     "minecraft:iron_block",
     "minecraft:obsidian",
     "betterenchanting:essence_of_protection"
+  ],
+  "enchantplus:trident/gungnir_breath": [
+    "minecraft:powder_snow_bucket",
+    "minecraft:blue_ice",
+    "betterenchanting:essence_of_ice"
+  ],
+  "trailiertales:rebrush": [
+    "minecraft:suspicious_gravel",
+    "minecraft:suspicious_sand",
+    "minecraft:amethyst_shard"
   ],
   "nova_structures:illagers_bane": [
     "minecraft:cactus",
@@ -474,6 +489,17 @@
     "minecraft:pufferfish_bucket",
     "minecraft:poisonous_potato",
     "betterenchanting:essence_of_poison"
+  ],
+  "enderscape:lightspeed": [
+    "minecraft:crying_obsidian",
+    "ditr:obsidian_diamond_ore",
+    "betterenchanting:essence_of_spell_power"
+  ],
+  "enderscape:transdimensional": [
+    "betterenchanting:essence_of_spell_power"
+  ],
+  "enderscape:rebound": [
+    "betterenchanting:essence_of_wings"
   ],
   "diversity:capacity": [
     "minecraft:chest",

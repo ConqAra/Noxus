@@ -1,0 +1,23 @@
+{
+  "block_entities": {
+    "minecraft:trapped_chest": "default",
+    "minecraft:ender_chest": "default",
+    "minecraft:shulker_box": "default",
+    "minecraft:chest": "default",
+    "minecraft:bell": "default"
+  },
+  "entities": {
+    "minecraft:hopper_minecart": "default",
+    "minecraft:spawner_minecart": "default",
+    "minecraft:tnt_minecart": "default",
+    "minecraft:block_display": "default",
+    "minecraft:item_frame": "default",
+    "minecraft:chest_minecart": "default",
+    "minecraft:glow_item_frame": "default",
+    "minecraft:furnace_minecart": "default",
+    "minecraft:minecart": "default",
+    "minecraft:command_block_minecart": "default",
+    "minecraft:item_display": "default",
+    "minecraft:item": "default"
+  }
+}

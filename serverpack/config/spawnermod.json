@@ -35,15 +35,16 @@
     "eternal_starlight:luminofish": 0,
     "eternal_starlight:nightfall_spider": 0,
     "eternal_starlight:ratlin": 0,
+    "eternal_starlight:rookfish": 0,
     "eternal_starlight:shadow_snail": 0,
     "eternal_starlight:shimmer_lacewing": 0,
+    "eternal_starlight:starfire_bird": 0,
     "eternal_starlight:stranghoul": 0,
     "eternal_starlight:tangled": 0,
     "eternal_starlight:tangled_hatred": 0,
     "eternal_starlight:tangled_skull": 0,
     "eternal_starlight:thirst_walker": 0,
     "eternal_starlight:tiny_creteor": 0,
-    "eternal_starlight:tower_squid": 0,
     "eternal_starlight:twilight_gaze": 0,
     "eternal_starlight:yeti": 0,
     "eternal_starlight:zombified_ratlin": 0,
@@ -78,7 +79,6 @@
     "minecraft:chicken": 0,
     "minecraft:cod": 0,
     "minecraft:cow": 0,
-    "minecraft:creaking": 0,
     "minecraft:creeper": 0,
     "minecraft:dolphin": 0,
     "minecraft:donkey": 0,
@@ -145,6 +145,8 @@
     "minecraft:zombie_horse": 0,
     "minecraft:zombie_villager": 0,
     "minecraft:zombified_piglin": 0,
-    "snuffles:snuffle": 0
+    "ohmymeteors:meteor_cat": 0,
+    "snuffles:snuffle": 0,
+    "trailiertales:apparition": 0
   }
 }

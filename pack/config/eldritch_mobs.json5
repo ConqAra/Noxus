@@ -2,18 +2,18 @@
 	"EliteSpawnRates": 0.01,
 	"UltraSpawnRates": 0.001,
 	"EldritchSpawnRates": 1.0E-4,
-	"EliteHealthMultiplier": 4.0,
-	"UltraHealthMultiplier": 6.0,
+	"EliteHealthMultiplier": 2.0,
+	"UltraHealthMultiplier": 4.0,
 	"EldritchHealthMultiplier": 8.0,
 	"EliteXpMultiplier": 4,
 	"UltraXpMultiplier": 6,
 	"EldritchXpMultiplier": 8,
 	"EliteMinModifiers": 2,
-	"UltraMinModifiers": 5,
-	"EldritchMinModifiers": 9,
+	"UltraMinModifiers":4,
+	"EldritchMinModifiers": 6,
 	"EliteMaxModifiers": 4,
-	"UltraMaxModifiers": 8,
-	"EldritchMaxModifiers": 12,
+	"UltraMaxModifiers": 6,
+	"EldritchMaxModifiers": 8,
 	// Prevent named mobs from becoming Elite, Ultra, and Eldritch
 	"ignoreNamedMobs": true,
 	// Turn off titles for mobs
@@ -23,7 +23,7 @@
 	// Boss bars appears when placing crosshair on buffed mob
 	"crosshairBossBars": true,
 	// Buffed mobs are highlighted after being damaged
-	"turnOnGlowingMobs": false,
+	"turnOnGlowingMobs": true,
 	// Turn off loot for buffed mobs
 	"disableLootDrops": false,
 	// If true, buffed mobs only drop loot when killed by players

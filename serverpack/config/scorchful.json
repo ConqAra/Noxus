@@ -1,0 +1,75 @@
+{
+  "updateConfig": {
+    "currentConfigVersion": 6,
+    "enableConfigUpdates": true
+  },
+  "clientConfig": {
+    "doBurningHeartOverlay": true,
+    "doSoakingOverlay": true,
+    "doSunHatShading": true,
+    "enableSoundTemperatureEffects": true,
+    "enableWetDripParticles": true,
+    "enableHeatStrokePostProcessing": true,
+    "enableFearPostProcessing": true,
+    "sunHatShadeOpacity": 0.2,
+    "enableSandstormParticles": true,
+    "enableSandstormFog": true,
+    "enableSandstormSounds": true,
+    "sandStormParticleRenderDistance": 20,
+    "sandStormParticleRarity": 60,
+    "sandStormParticleVelocity": -1.0,
+    "sandStormFogStart": 16.0,
+    "sandStormFogEnd": 64.0
+  },
+  "heatingConfig": {
+    "doPassiveHeating": true,
+    "passiveHeatingTickInterval": 1,
+    "maxPassiveHeatingScale": 1.0,
+    "enableTurtleArmorEffects": true,
+    "minTemperatureForHeatC": 30.0,
+    "degreesCPerTemperatureIncrease": 10.0,
+    "environmentTemperatureMultiplier": 1.0,
+    "coolingFromIce": 12,
+    "onFireWarmRate": 24,
+    "onFireWarmRateWithFireResistance": 6,
+    "inLavaWarmRate": 24,
+    "striderOutOfLavaCoolRate": 24,
+    "powderSnowCoolRate": 24,
+    "fireballHeat": 1000,
+    "waterBreathingDurationPerTurtleArmorPieceSeconds": 10,
+    "temperatureFromCoolingFood": -1260
+  },
+  "combatConfig": {
+    "fireBallThrownType": "SMALL",
+    "enableDesertVisions": true,
+    "fireProtectionHeatResistancePerLevel": 0.125,
+    "fearDetectionRangeMultiplier": 2.0,
+    "impalingDamagePerLevel": 2.5
+  },
+  "weatherConfig": {
+    "doSandPileAccumulation": true,
+    "sandPileAccumulationHeight": 1,
+    "sandstormSlownessAmountPercent": -0.3,
+    "sandstormFollowRangeReductionPercent": -0.5
+  },
+  "thirstConfig": {
+    "temperatureFromWetness": -6,
+    "waterFromRefreshingFood": 60,
+    "waterFromSustainingFood": 120,
+    "waterFromHydratingFood": 300,
+    "waterFromParchingFood": -120,
+    "rehydrationDrinkSize": 120,
+    "soakingFromSplashPotions": 300,
+    "touchingWaterWetnessIncrease": 1,
+    "onFireDryDate": 3,
+    "humidBiomeSweatEfficiency": 0.33333334,
+    "extraHumidBiomeSweatEfficiency": 0.16666667,
+    "aridBiomeSweatEfficiency": 1.5,
+    "maxRehydrationEfficiency": 0.75
+  },
+  "integrationConfig": {
+    "dehydrationConfig": {
+      "minWaterLevelForSweat": 16
+    }
+  }
+}

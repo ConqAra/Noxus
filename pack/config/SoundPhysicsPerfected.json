@@ -1,0 +1,9 @@
+{
+  "raysCast": 256,
+  "raysBounced": 3,
+  "reverbEnabled": true,
+  "permeationEnabled": true,
+  "maxRayLength": 8,
+  "SoundMult": 2.0,
+  "tickRate": 2
+}

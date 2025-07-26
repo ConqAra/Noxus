@@ -28,6 +28,9 @@
     "automatic_slice_change": false
   },
   "world_map": {
+    "shear_button": true,
+    "compass_icon": false,
+    "clock_icon": false,
     "crossair": false,
     "alternative_texture": false,
     "smooth_panning": true,

@@ -1,0 +1,13 @@
+{
+  "armorPointsPPConfig": {
+    "overheatingTextColor": 16753920
+  },
+  "immersiveWeatheringConfig": {
+    "freezingFromIcicleFall": -3000,
+    "freezingFromEatingIcicle": -500
+  },
+  "friendsAndFoesConfig": {
+    "freezingTotemFreezingScaleChange": 1.0,
+    "iceologerIceChunkFreezingScaleChange": 0.25
+  }
+}

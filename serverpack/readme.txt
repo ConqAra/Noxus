@@ -2,4 +2,4 @@ edit the run.bat in notepad and replace the ""C:\Program Files\Java\jdk-22.0.1\b
 
 please adjust the jvmargs to your own computer/preferences!!!
 
-note: if you have less than 16gb ram or only want to use 8gb for the server please consider removing "-XX:ConcGCThreads=6" at the end of the first line. it uses considerably more ram in return for server performance.
+note: if you have less than 16gb ram or only want to use 8gb for the server please set the -Xmx to 8044M and consider removing "-XX:ConcGCThreads=6" at the end of the first line. it uses considerably more ram in return for server performance.

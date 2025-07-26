@@ -16,16 +16,20 @@ mode = "fancy"
 	creeper = "simple"
 
 			[light_sources.settings.entities.minecraft]
+				panda = true
 				axolotl = true
 				bee = true
+				zoglin = true
 				arrow = true
 				cow = true
+				magma_cube = true
 				pig = true
 				skeleton = true
 				llama = true
 				bat = true
 				frog = true
 				husk = true
+				hoglin = true
 				armadillo = true
 				camel = true
 				experience_bottle = true
@@ -40,8 +44,11 @@ mode = "fancy"
 				salmon = true
 				wandering_trader = true
 				wither_skeleton = true
+				vex = true
+				piglin_brute = true
 				breeze = true
 				goat = true
+				ocelot = true
 				furnace_minecart = true
 				item_frame = true
 				horse = true
@@ -54,6 +61,7 @@ mode = "fancy"
 				glow_item_frame = false
 				squid = true
 				snowball = true
+				parrot = true
 				creeper = true
 				lightning_bolt = true
 				enderman = true
@@ -68,8 +76,12 @@ mode = "fancy"
 				pillager = true
 				iron_golem = true
 				area_effect_cloud = true
+				zombified_piglin = true
+				piglin = true
 				cat = true
 				zombie = true
+				guardian = true
+				ghast = true
 				sheep = true
 				fireball = true
 				player = true
@@ -86,45 +98,42 @@ mode = "fancy"
 				boat = true
 				small_fireball = true
 				polar_bear = true
+				strider = true
 				hopper_minecart = true
 				falling_block = true
 				painting = true
 				cave_spider = true
 				witch = true
 				cod = true
+				snow_golem = true
 				spider = true
 
-			[light_sources.settings.entities.smallships]
-				galley = true
+			[light_sources.settings.entities.eternalnether]
+				piglin_hunter = true
+				wraither = true
+				wither_skeleton_horse = true
+				piglin_prisoner = true
+				warped_ender_pearl = true
+				wither_skeleton_knight = true
+				wex = true
+				warped_enderman = true
+				corpor = true
 
-			[light_sources.settings.entities.beansbackpacks]
-				backpack = true
+			[light_sources.settings.entities.ohmymeteors]
+				meteor_projectile = true
 
-			[light_sources.settings.entities.frycmobvariants]
-				soul_stealer = true
-				corsair = true
-				armored_spider = true
-				executioner = true
-				cave_creeper = true
-				forgotten = true
-				explorer = true
-				frozen_zombie = true
-				nightmare = true
-				lava_slime = true
-				undead_warrior = true
+			[light_sources.settings.entities.trumpet-skeleton]
+				trumpet_skeleton = true
 
-			[light_sources.settings.entities.hwg]
-				shell = true
-				bullets = true
+			[light_sources.settings.entities.betterarcheology]
+				bombentity = true
 
-			[light_sources.settings.entities.eternal_starlight]
-				chain_of_souls = true
-				shattered_blade = true
-				aethersent_meteor = true
-				the_gatekeeper = true
+			[light_sources.settings.entities.snuffles]
+				snuffle = true
 
-			[light_sources.settings.entities.boatism]
-				boat_engine = true
+			[light_sources.settings.entities.mutantmonsters]
+				mutant_creeper = true
+				mutant_skeleton = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				ocean_creeper = true
@@ -135,11 +144,94 @@ mode = "fancy"
 				savannah_creeper = true
 				hills_creeper = true
 
+			[light_sources.settings.entities.takesapillage]
+				skirmisher = true
+				archer = true
+				clay_golem = true
+				legioner = true
+
 			[light_sources.settings.entities.knightquest]
 				ratman = true
 				ghosty = true
 				eldbomb = true
 				lizzy = true
+
+			[light_sources.settings.entities.sleep_tight]
+				bed_entity = true
+				bedbug = true
+
+			[light_sources.settings.entities.illagerinvasion]
+				basher = true
+
+			[light_sources.settings.entities.toffys_hooks]
+				hook_entity = true
+
+			[light_sources.settings.entities.smallships]
+				galley = true
+
+			[light_sources.settings.entities.beansbackpacks]
+				backpack = true
+
+			[light_sources.settings.entities.trailiertales]
+				apparition = true
+				thrown_item = true
+
+			[light_sources.settings.entities.frostiful]
+				frost_spell = true
+
+			[light_sources.settings.entities.frycmobvariants]
+				infected_piglin_brute = true
+				soul_stealer = true
+				tropical_spider = true
+				infected_piglin = true
+				armored_spider = true
+				executioner = true
+				cave_creeper = true
+				frozen_zombie = true
+				nightmare = true
+				undead_warrior = true
+				corsair = true
+				zombified_piglin_brute = true
+				forgotten = true
+				explorer = true
+				lava_slime = true
+
+			[light_sources.settings.entities.hwg]
+				shell = true
+				bullets = true
+
+			[light_sources.settings.entities.eternal_starlight]
+				tangled_hatred_part = true
+				lunar_monstrosity = true
+				tangled_skull = true
+				chain_of_souls = true
+				aurora_deer = true
+				ent = true
+				nightfall_spider = true
+				lonestar_skeleton = true
+				shattered_blade = true
+				lunar_spore = true
+				gatekeeper_fireball = true
+				boat = true
+				tangled = true
+				lunar_thorn = true
+				tangled_hatred = true
+				aethersent_meteor = true
+				the_gatekeeper = true
+				ratlin = true
+				yeti = true
+				shadow_snail = true
+
+			[light_sources.settings.entities.boatism]
+				boat_engine = true
+
+			[light_sources.settings.entities.wilderwild]
+				moobloom = true
+				jellyfish = true
+				butterfly = true
+				crab = true
+				penguin = true
+				tumbleweed = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true

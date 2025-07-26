@@ -9,12 +9,12 @@
     "activation_locations": "HOTBAR_AND_HANDS",
     "creative_teleport": true,
     "pin_marked_id": "map_atlases:pin",
-    "light_map": false,
-    "shear_button": true
+    "light_map": false
   },
   "update_logic": {
     "round_robin": false,
     "map_updates_per_tick": 1,
+    "map_range_multiplier": 1.0,
     "multithreaded_update": "SINGLE_PLAYER_ONLY",
     "debug_map_updates": false,
     "markers_update_period": 10
