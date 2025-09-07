@@ -8,6 +8,8 @@ a hard modpack based off of the [nox](https://github.com/qxeii/nox-renoxed) mod.
 - [there's a 'bleeding' mechanic](https://github.com/Xires87/Haemorrhage), try not taking any mob damage unless you're packin' bandages. there are also some new negative effects, such as 'broken' and 'health loss' that can be cured through splints and herbal balms or honey bottles.
 - **you cannot recover health by normal means**, saturation does not heal you!!! you have to heal mainly through either first aid items (bandages, herbal balms, etc.) or by sleeping. there are some more cool alternative ways too that you can discover.
 - [lunar events](https://github.com/Mrbysco/Lunar) such as blood moons exist, be wary.
+- wooden tools are pocket-sized now! you can easily craft all variations of them in your 2x2 crafting grid.
+- **break leaves, not trees!** logs and planks are no longer harvestable with your hands, you will need an axe to obtain any wood. get sticks and saplings (you can turn into sticks) from breaking leaves to turn into planks to craft wooden tools.
 - stone tools are actually stone tools now (you'll find out lol).
 - diamond armor and tools are no longer craftable. they now require a smithing table with their iron counterparts and a **one-use** diamond smithing template.
 - [armor is nerfed](https://github.com/ryleu/armor-nerf). leather, gold, and chainmail armor have all been reworked for more 'unique' use-cases.
