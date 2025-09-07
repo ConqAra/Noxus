@@ -21,6 +21,11 @@ craftingTable.remove(<item:minecraft:shield>);
 craftingTable.remove(<item:imbleeding:bandage>);
 craftingTable.remove(<item:imbleeding:splint>);
 craftingTable.remove(<item:minecraft:netherite_upgrade_smithing_template>);
+craftingTable.remove(<item:minecraft:wooden_pickaxe>);
+craftingTable.remove(<item:minecraft:wooden_shovel>);
+craftingTable.remove(<item:minecraft:wooden_axe>);
+craftingTable.remove(<item:minecraft:wooden_hoe>);
+craftingTable.remove(<item:minecraft:wooden_sword>);
 
 var stone = <item:minecraft:stone>;
 
@@ -32,6 +37,8 @@ var plank = <tag:item:minecraft:planks>;
 
 var ingot = <item:minecraft:iron_ingot>;
 
+var wood = <tag:item:minecraft:planks>;
+
 craftingTable.addShaped("shield", <item:minecraft:shield>, [
     [ingot, plank, ingot],
     [plank, stick, plank],
@@ -39,6 +46,31 @@ craftingTable.addShaped("shield", <item:minecraft:shield>, [
 ]);
 
 smithing.addTransformRecipe("netherite_shield", <item:guarding:netherite_shield>, <item:minecraft:netherite_upgrade_smithing_template>, <item:minecraft:shield>, <item:minecraft:netherite_ingot>);
+
+craftingTable.addShapedMirrored("wood_axe", MirrorAxis.HORIZONTAL, <item:minecraft:wooden_axe>, [
+    [wood, stick],
+    [air, stick]
+]);
+
+craftingTable.addShapedMirrored("wood_hoe", MirrorAxis.HORIZONTAL, <item:minecraft:wooden_hoe>, [
+    [wood, wood],
+    [air, stick]
+]);
+
+craftingTable.addShapedMirrored("wood_shovel", MirrorAxis.HORIZONTAL, <item:minecraft:wooden_shovel>, [
+    [wood, air],
+    [air, stick]
+]);
+
+craftingTable.addShapedMirrored("wood_pickaxe", MirrorAxis.HORIZONTAL, <item:minecraft:wooden_pickaxe>, [
+    [wood, wood],
+    [wood, stick]
+]);
+
+craftingTable.addShaped("wood_sword", <item:minecraft:wooden_sword>, [
+    [wood],
+    [stick]
+]);
 
 craftingTable.addShaped("pickaxe", <item:minecraft:stone_pickaxe>, [
     [stone, stone, stone],
@@ -81,3 +113,9 @@ craftingTable.addShapeless("splint", <item:imbleeding:splint>, [<item:minecraft:
 craftingTable.addShapeless("bandage", <item:imbleeding:bandage>, [<tag:item:minecraft:wool>, <tag:item:minecraft:wool>, <item:minecraft:string>]);
 
 craftingTable.addShapeless("hp_bandage", <item:imbleeding:soaked_bandage>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:strong_healing"}), [<item:imbleeding:honey_bandage>, <item:farmersdelight:melon_juice>, <item:minecraft:sweet_berries>, <item:minecraft:potion>.withJsonComponent(<componenttype:minecraft:potion_contents>, {potion: "minecraft:strong_healing"})]);
+
+craftingTable.addShapeless("plank", <item:minecraft:oak_planks> * 2, [<item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:stick>]);
+
+craftingTable.addShapeless("flint_cope", <item:minecraft:flint>, [<item:minecraft:gravel>, <item:minecraft:gravel>, <item:minecraft:gravel>, <item:minecraft:gravel>]);
+
+craftingTable.addShapeless("stick_cope", <item:minecraft:stick> * 2, [<tag:item:minecraft:saplings>, <tag:item:minecraft:saplings>, <tag:item:minecraft:saplings>, <tag:item:minecraft:saplings>]);

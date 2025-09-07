@@ -1,0 +1,38 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+minSpawnChance = 5.0
+maxSpawnChance = 10.0
+minChancePerBuff = 20.0
+maxChancePerBuff = 75.0
+xpPerBuffLevel = 3
+enchantedBookThresholdPercentage = 66.0
+allowBuffedMobsFromSpawners = false
+onlyBuffedMobsSpreadSculk = false
+buffRules = [
+    [ { buffSetType = "WEAPON_BASED", customBuffs = [  ], weaponType = "ANY", customWeapons = [  ] }, [ "minecraft:drowned", "minecraft:skeleton", "minecraft:pillager", "minecraft:phantom", "minecraft:magma_cube", "minecraft:bogged", "minecraft:stray", "minecraft:slime", "minecraft:zombie", "minecraft:husk", "minecraft:piglin", "minecraft:zombified_piglin", "minecraft:zombie_villager", "minecraft:wither_skeleton", "minecraft:piglin_brute", "minecraft:vindicator", "frycmobvariants:forgotten", "frycmobvariants:explorer", "frycmobvariants:frozen_zombie", "frycmobvariants:bloated_corpse", "frycmobvariants:undead_warrior", "frycmobvariants:lava_slime", "frycmobvariants:toxic_slime", "frycmobvariants:corsair", "frycmobvariants:executioner", "frycmobvariants:soul_stealer", "frycmobvariants:infected_piglin_brute", "frycmobvariants:infected_piglin", "frycmobvariants:zombified_piglin_brute" ] ],
+    [ { buffSetType = "CUSTOM", customBuffs = [ [ "minecraft:regeneration", 2 ], [ "minecraft:infested", 1 ], [ "minecraft:health_boost", 5 ] ], weaponType = "ANY", customWeapons = [  ] }, [ "minecraft:creeper", "frycmobvariants:cave_creeper" ] ],
+    [ { buffSetType = "CUSTOM", customBuffs = [ [ "minecraft:regeneration", 2 ], [ "minecraft:speed", 2 ], [ "minecraft:health_boost", 3 ], [ "smbs:follow_range", 2 ] ], weaponType = "ANY", customWeapons = [  ] }, [ "minecraft:blaze" ] ],
+    [ { buffSetType = "CUSTOM", customBuffs = [ [ "minecraft:regeneration", 2 ], [ "smbs:knockback_resist", 2 ], [ "minecraft:health_boost", 3 ] ], weaponType = "ANY", customWeapons = [  ] }, [ "minecraft:ghast", "frycmobvariants:nightmare" ] ],
+    [ { buffSetType = "CUSTOM", customBuffs = [ [ "minecraft:speed", 3 ], [ "minecraft:strength", 2 ], [ "minecraft:regeneration", 2 ], [ "minecraft:weaving", 1 ], [ "minecraft:health_boost", 3 ] ], weaponType = "ANY", customWeapons = [  ] }, [ "minecraft:spider", "minecraft:cave_spider", "frycmobvariants:armored_spider", "frycmobvariants:tropical_spider" ] ],
+    [ { buffSetType = "CUSTOM", customBuffs = [ [ "minecraft:speed", 2 ], [ "minecraft:invisibility", 1 ], [ "minecraft:health_boost", 3 ] ], weaponType = "ANY", customWeapons = [  ] }, [ "minecraft:witch" ] ],
+    [ { buffSetType = "CUSTOM", customBuffs = [ [ "smbs:scale", 3 ], [ "smbs:attack_knockback", 3 ] ], weaponType = "ANY", customWeapons = [  ] }, [ "minecraft:zoglin", "minecraft:hoglin" ] ]
+]
+defaultMeleeBuffs = [
+    [ "minecraft:strength", 2 ],
+    [ "smbs:knockback_resist", 1 ],
+    [ "smbs:attack_knockback", 1 ],
+    [ "minecraft:resistance", 2 ],
+    [ "minecraft:health_boost", 5 ]
+]
+defaultRangedBuffs = [
+    [ "minecraft:speed", 2 ],
+    [ "smbs:follow_range", 4 ],
+    [ "minecraft:invisibility", 1 ],
+    [ "minecraft:health_boost", 3 ]
+]
+meleeWeapons = [
+    "#c:tools/melee_weapon"
+]
+rangedWeapons = [
+    "#c:tools/ranged_weapon"
+]

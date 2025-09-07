@@ -24,6 +24,7 @@ mode = "fancy"
 				cow = true
 				magma_cube = true
 				pig = true
+				allay = true
 				skeleton = true
 				llama = true
 				bat = true
@@ -232,6 +233,9 @@ mode = "fancy"
 				crab = true
 				penguin = true
 				tumbleweed = true
+
+			[light_sources.settings.entities.yungscavebiomes]
+				sand_snapper = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true

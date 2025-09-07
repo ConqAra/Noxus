@@ -4,7 +4,7 @@ lunarEventChance = 0.4
 bloodMoonWeight = 60
 crimsonMoonWeight = 20
 minerMoonWeight = 40
-whiteMoonWeight = 10
+whiteMoonWeight = 0
 tinyMoonWeight = 10
 bigMoonWeight = 10
 badOmenMoonWeight = 5
@@ -12,3 +12,13 @@ heroMoonWeight = 5
 eclipseMoonWeight = 2
 [crimson]
 crimsonReplacements = ["minecraft:zombie,minecraft:zombified_piglin", "minecraft:husk,minecraft:zombified_piglin", "minecraft:drowned,minecraft:zombified_piglin", "minecraft:skeleton,minecraft:wither_skeleton", "minecraft:creeper,minecraft:ghast", "minecraft:slime,minecraft:magma_cube", "minecraft:spider,minecraft:zoglin"]
+[sleeping]
+bloodMoonSleeping = false
+crimsonMoonSleeping = true
+minerMoonSleeping = true
+whiteMoonSleeping = true
+tinyMoonSleeping = true
+bigMoonSleeping = true
+badOmenMoonSleeping = true
+heroMoonSleeping = true
+eclipseMoonSleeping = false

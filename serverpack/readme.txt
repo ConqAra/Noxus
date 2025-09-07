@@ -1,4 +1,5 @@
-edit the run.bat in notepad and replace the ""C:\Program Files\Java\jdk-22.0.1\bin\java.exe" file path to your own java location, specifically jdk22 or higher.
+you can edit the run.bat in notepad and replace the "java" file path to your own java location.
+graalvm is recommended (https://www.graalvm.org/downloads/#) but you can use ordinary JDK with the run (no-graalvm).bat
 
 please adjust the jvmargs to your own computer/preferences!!!
 

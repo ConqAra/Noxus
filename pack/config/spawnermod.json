@@ -13,7 +13,6 @@
   "monster_egg_drop_chance": 0,
   "monster_egg_only_drop_when_killed_by_player": 0,
   "spawner_hardness": 25,
-  "trumpet-skeleton:trumpet_skeleton": 0,
   "item_id_blacklist": [],
   "disable_specific_egg_drops": {
     "artifacts:mimic": 1,
@@ -49,9 +48,6 @@
     "eternal_starlight:twilight_gaze": 0,
     "eternal_starlight:yeti": 0,
     "eternal_starlight:zombified_ratlin": 0,
-    "frostiful:biter": 0,
-    "frostiful:chillager": 0,
-    "frostiful:frostologer": 0,
     "frycmobvariants:armored_spider": 0,
     "frycmobvariants:bloated_corpse": 0,
     "frycmobvariants:cave_creeper": 0,
@@ -150,8 +146,8 @@
     "minecraft:zombie_villager": 0,
     "minecraft:zombified_piglin": 0,
     "ohmymeteors:meteor_cat": 0,
-    "sleep_tight:bedbug": 0,
     "snuffles:snuffle": 0,
-    "trailiertales:apparition": 0
+    "yungscavebiomes:ice_cube": 0,
+    "yungscavebiomes:sand_snapper": 0
   }
 }

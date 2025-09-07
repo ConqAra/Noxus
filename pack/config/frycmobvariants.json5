@@ -43,19 +43,51 @@
 	"skeletonToCorsairConvertChance": 60,
 	"undeadWarriorAttributes": {
 		// Skeletons with enchanted bow always convert to undead warrior with bow
-		"undeadWarriorSpawnWithBowChance": 50,
+		"alwaysKeepEnchantedBow": true,
+		/* List of weapons that Undead Warrior can spawn with in the following pattern: 'Item;Chance;Item;Chance' 
+		    Sum of chances cannot be greater than 1.0
+		*/
+		"undeadWarriorWeapons": "minecraft:stone_sword;0.50;minecraft:bow;0.50",
 		"undeadWarriorsMinTippedArrowsCount": 1,
 		"undeadWarriorsMaxTippedArrowsCount": 4,
 		"undeadWarriorsTippedArrowDropChancePerTippedArrowHeld": 3,
 		// List of effects (with duration and amplifier) that Undead Warrior's arrow can have in the following pattern: 'StatusEffect;duration;amplifier;StatusEffect;duration;amplifier'
 		"undeadWarriorsArrowEffect": "minecraft:weakness;400;1;minecraft:blindness;80;1;minecraft:instant_damage;1;1"
 	},
+	"executionerAttributes": {
+		/* List of weapons that Executioner can spawn with in the following pattern: 'Item;Chance;Item;Chance' 
+		    Sum of chances cannot be greater than 1.0
+		*/
+		"executionerWeapons": "minecraft:stone_axe;1.0",
+		/* List of helmets that Executioner can spawn with in the following pattern: 'Item;Chance;Item;Chance' 
+		    Sum of chances cannot be greater than 1.0
+		*/
+		"executionerHelmets": "minecraft:iron_helmet;1.0",
+		/* List of chestplates that Executioner can spawn with in the following pattern: 'Item;Chance;Item;Chance' 
+		    Sum of chances cannot be greater than 1.0
+		*/
+		"executionerChestplates": "minecraft:iron_chestplate;0.50",
+		/* List of leggings that Executioner can spawn with in the following pattern: 'Item;Chance;Item;Chance' 
+		    Sum of chances cannot be greater than 1.0
+		*/
+		"executionerLeggings": "minecraft:iron_leggings;0.25",
+		/* List of boots that Executioner can spawn with in the following pattern: 'Item;Chance;Item;Chance' 
+		    Sum of chances cannot be greater than 1.0
+		*/
+		"executionerBoots": "minecraft:iron_boots;0.04"
+	},
 	// Additional magic damage dealt by Soul Stealer. On normal difficulty this value is increased by 1. On hard, by 3
 	"soulStealersBaseMagicDamage": 1.0,
+	/* List of weapons that Soul Stealer can spawn with in the following pattern: 'Item;Chance;Item;Chance' 
+	    Sum of chances cannot be greater than 1.0
+	*/
+	"soulStealerWeapons": "minecraft:iron_hoe;1.0",
 	// 20 = 1s. Set it to 10 (or lower) to prevent lava from disappearing
 	"timeToRemoveLavaLeftByLavaSlime": 30,
-	// This option affects only Corsairs that spawned on shipwrecks
-	"corsairSpawnWithSwordChance": 42,
+	/* List of weapons that Corsair can spawn with in the following pattern: 'Item;Chance;Item;Chance' 
+	    Sum of chances cannot be greater than 1.0
+	*/
+	"corsairWeapons": "minecraft:wooden_sword;0.72",
 	// Minimal difficulty at which Bloated Corpse's cloud deals poison damage. Set to NONE to remove poison damage from the cloud
 	"bloatedCorpsesCloudPoisonDamageDifficulty": "HARD",
 	"convertZombiesToFrozenZombiesInPowderSnow": true,

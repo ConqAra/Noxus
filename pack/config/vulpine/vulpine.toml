@@ -1,0 +1,10 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+
+[spawning]
+enableBrightColorFoxes = true
+enableSculkFoxes = true
+enableAlternateFoxVariants = true
+enableFennecFoxes = true
+enableNetherFoxes = true
+enableEndFoxes = true

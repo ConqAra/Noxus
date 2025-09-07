@@ -91,7 +91,7 @@
 		#Only chop when using the correct tool for drops, if any (does nothing in vanilla, but some mods add tool requirements to logs
 		choppingRequiresCorrectToolForDrops = true
 		#Only chop when using a tool that increases block breaking speed (such as axes for logs)
-		choppingRequiresFastBreakingTool = false
+		choppingRequiresFastBreakingTool = true
 		#Prevent chopping when right-clicking blocks
 		preventChoppingOnRightClick = false
 		#Prevent infinite loops when chopping; fixes crashes when using modded items that break multiple blocks
