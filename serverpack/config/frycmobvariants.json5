@@ -29,6 +29,8 @@
 	"magmaCubeToLavaSlimeConvertChance": 19,
 	// For example, when set to 12, Zombified Piglin will have 12% chance to convert to Zombified Piglin Brute after spawning
 	"zombifiedPiglinConvertChance": 4,
+	// Mob conversion isn't affected by biome under this Y level, unless they spawn in one of the cave biomes in which they can convert
+	"minYLevelForBiomeVariants": 49,
 	// For example, when set to 90, Zombie will have 90% chance to convert to Explorer after spawning in jungle or lush cave
 	"zombieToExplorerConvertChance": 75,
 	// For example, when set to 90, Zombie will have 90% chance to convert to Frozen Zombie after spawning in snowy biome

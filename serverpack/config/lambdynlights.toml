@@ -109,47 +109,18 @@ mode = "fancy"
 				snow_golem = true
 				spider = true
 
-			[light_sources.settings.entities.eternalnether]
-				piglin_hunter = true
-				wraither = true
-				wither_skeleton_horse = true
-				piglin_prisoner = true
-				warped_ender_pearl = true
-				wither_skeleton_knight = true
-				wex = true
-				warped_enderman = true
-				corpor = true
-
-			[light_sources.settings.entities.ohmymeteors]
-				meteor_projectile = true
-
 			[light_sources.settings.entities.trumpet-skeleton]
 				trumpet_skeleton = true
-
-			[light_sources.settings.entities.betterarcheology]
-				bombentity = true
-
-			[light_sources.settings.entities.snuffles]
-				snuffle = true
 
 			[light_sources.settings.entities.mutantmonsters]
 				mutant_creeper = true
 				mutant_skeleton = true
 
-			[light_sources.settings.entities.creeperoverhaul]
-				ocean_creeper = true
-				desert_creeper = true
-				dark_oak_creeper = true
-				dripstone_creeper = true
-				cave_creeper = true
-				savannah_creeper = true
-				hills_creeper = true
-
-			[light_sources.settings.entities.takesapillage]
-				skirmisher = true
-				archer = true
-				clay_golem = true
-				legioner = true
+			[light_sources.settings.entities.enderscape]
+				drifter = true
+				rustle = true
+				driftlet = true
+				rubblemite = true
 
 			[light_sources.settings.entities.knightquest]
 				ratman = true
@@ -167,11 +138,13 @@ mode = "fancy"
 			[light_sources.settings.entities.toffys_hooks]
 				hook_entity = true
 
-			[light_sources.settings.entities.smallships]
-				galley = true
+			[light_sources.settings.entities.web]
+				spider_web_flying = true
+				baby_spider = true
+				spider_web = true
 
-			[light_sources.settings.entities.beansbackpacks]
-				backpack = true
+			[light_sources.settings.entities.immersive_aircraft]
+				biplane = true
 
 			[light_sources.settings.entities.trailiertales]
 				apparition = true
@@ -179,6 +152,57 @@ mode = "fancy"
 
 			[light_sources.settings.entities.frostiful]
 				frost_spell = true
+
+			[light_sources.settings.entities.boatism]
+				boat_engine = true
+
+			[light_sources.settings.entities.yungscavebiomes]
+				ice_cube = true
+				sand_snapper = true
+
+			[light_sources.settings.entities.artifacts]
+				mimic = true
+
+			[light_sources.settings.entities.eternalnether]
+				piglin_hunter = true
+				wraither = true
+				wither_skeleton_horse = true
+				piglin_prisoner = true
+				warped_ender_pearl = true
+				wither_skeleton_knight = true
+				wex = true
+				warped_enderman = true
+				corpor = true
+
+			[light_sources.settings.entities.ohmymeteors]
+				meteor_projectile = true
+
+			[light_sources.settings.entities.betterarcheology]
+				bombentity = true
+
+			[light_sources.settings.entities.snuffles]
+				snuffle = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				ocean_creeper = true
+				desert_creeper = true
+				dark_oak_creeper = true
+				dripstone_creeper = true
+				cave_creeper = true
+				savannah_creeper = true
+				hills_creeper = true
+
+			[light_sources.settings.entities.takesapillage]
+				skirmisher = true
+				archer = true
+				clay_golem = true
+				legioner = true
+
+			[light_sources.settings.entities.smallships]
+				galley = true
+
+			[light_sources.settings.entities.beansbackpacks]
+				backpack = true
 
 			[light_sources.settings.entities.frycmobvariants]
 				infected_piglin_brute = true
@@ -206,6 +230,7 @@ mode = "fancy"
 				lunar_monstrosity = true
 				tangled_skull = true
 				chain_of_souls = true
+				rookfish = true
 				aurora_deer = true
 				ent = true
 				nightfall_spider = true
@@ -214,6 +239,7 @@ mode = "fancy"
 				lunar_spore = true
 				gatekeeper_fireball = true
 				boat = true
+				starfire_bird = true
 				tangled = true
 				lunar_thorn = true
 				tangled_hatred = true
@@ -223,9 +249,6 @@ mode = "fancy"
 				yeti = true
 				shadow_snail = true
 
-			[light_sources.settings.entities.boatism]
-				boat_engine = true
-
 			[light_sources.settings.entities.wilderwild]
 				moobloom = true
 				jellyfish = true
@@ -233,9 +256,3 @@ mode = "fancy"
 				crab = true
 				penguin = true
 				tumbleweed = true
-
-			[light_sources.settings.entities.yungscavebiomes]
-				sand_snapper = true
-
-			[light_sources.settings.entities.artifacts]
-				mimic = true

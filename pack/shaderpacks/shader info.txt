@@ -1,4 +1,0 @@
-if switching to Rudimentary v9.0, set brightness to "Moody"
-
-v9.0 is a lot brighter than v8.2 and probably fits the "PS1" aesthetic more,
-but i prefer the dark and grittyness for noxus over it.

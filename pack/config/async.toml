@@ -1,10 +1,10 @@
-#Globally disable all toggleable functionality within the async system. Set to true to stop all asynchronous operations.
+#Enables parallel processing of entity.
 disabled = false
 #Maximum number of threads to use for parallel processing. Set to -1 to use default value. Note: If 'virtualThreads' is enabled, this setting will be ignored.
 paraMax = -1
 #List of entity class for sync processing.
-synchronizedEntities = ["minecraft:item", "eternal_starlight:tangled_hatred", "minecraft:experience_orb", "eternal_starlight:tangled", "eternal_starlight:lunar_thorn", "minecraft:tnt", "eternal_starlight:tangled_skull"]
-#Modifies entity movement processing: true for synchronous movement (vanilla mechanics intact, less performance), false for asynchronous movement (better performance, may break mechanics).
-enableEntityMoveSync = false
-#Enables parallel processing of entity spawns. Warning, incompatible with VMP mod && Carpet mod lagFreeSpawning rule.
-enableAsyncSpawn = false
+synchronizedEntities = ["minecraft:experience_orb", "minecraft:tnt", "minecraft:item"]
+#Enables parallel processing of entity spawns. Warning, incompatible with Carpet mod lagFreeSpawning rule.
+enableAsyncSpawn = true
+#Experimental! Enables async processing of random ticks.
+enableAsyncRandomTicks = false

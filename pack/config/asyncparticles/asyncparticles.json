@@ -9,13 +9,16 @@
   "tick": {
     "animationTickMode": "INTERRUPTIBLE",
     "particleTickMode": "INTERRUPTIBLE",
+    "tickWeatherAsync": true,
+    "deferredTextureTick": true,
     "failPerSecLimit": 5,
     "failBehavior": "RAISE_CRASH",
     "suppressCME": false
   },
   "rendering": {
-    "cullParticles": true,
+    "particleCulling": "SPHERE",
     "particleRenderingMode": "DELAYED",
+    "cullWeathers": true,
     "failPerSecLimit": 20,
     "failBehavior": "MARK_AS_SYNC"
   },
